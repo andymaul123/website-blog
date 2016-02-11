@@ -1,0 +1,284 @@
+// These styles override the Skeleton framework styles
+
+/* Global Styles
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+html,body {
+	@include background-body;
+	height: 100%;
+	min-height: 100%;
+	font-family: 'Droid Sans', sans-serif;
+}
+a, a:hover {
+	color: $blue;
+	text-decoration: none;
+}
+p {
+	color: $light-gray;
+	margin-bottom: 2rem;
+	line-height: 2rem;
+	font-size: 1.5rem;
+
+	a:hover {
+		text-decoration: underline;
+	}
+}
+li {
+	color: $light-gray;
+}
+h1, h2, h3, h4, h5 {
+	color: $white;
+	font-family: 'Francois One', sans-serif;
+}
+.container {
+	height: auto;
+	border-left: none;
+	border-right: none;
+	border-top: none;
+	width: 100%;
+
+	@media (min-width: 550px) {
+		margin-top: 15px;
+		border-left: $border-gray;
+		border-right: $border-gray;
+		border-top: $border-gray;
+		width: 85%;
+	}
+
+}
+hr {
+	border-top: $border-gray;
+}
+code {
+	background-color: $code-background;
+	border: $border-gray;
+	color: $green;
+	//color: $light-blue;
+}
+blockquote {
+	border-left: $border-gray;
+	padding: 10px;
+
+	p {
+		margin: 0;
+		padding: 0;
+	}
+}
+figure {
+	margin: 0;
+	padding: 0;
+
+	figcaption {
+		color: $light-gray;
+		font-size: 85%;
+		font-style: italic;
+	}
+}
+
+/* Header Styles
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+header {
+	@include background-header;
+	text-align: center;
+
+	h1 {
+		margin: 0;
+		padding: 1rem 0 0 0;
+		a, a:hover {
+			color: $white;
+		}
+	}
+	h2 {
+		margin: 0;
+		padding: 1rem 0 1rem 0;
+		font-size: 3rem;
+	}
+}
+
+nav {
+	@include ribbon;
+	text-align: center;
+	padding: 0;
+
+	a {
+		color: $light-gray;
+		display: block;
+		padding: 10px;
+		border-bottom: $border-gray;
+		//text-transform: uppercase;
+		font-size: 90%;
+		&:last-child {
+			border-bottom: none;
+		}
+	}
+
+	a:hover {
+		color: $blue;
+		background-color: rgba(255, 255, 255, 0.05);
+	}
+
+	@media (min-width: 550px) {
+		padding: 4px 0 4px 0;
+
+		a {
+			padding: 0 5% 0 5%;
+			display: inline;
+			border-bottom: none;
+		}
+		a:hover {
+			background-color: transparent;
+		}
+	}
+}
+
+/* Main/Body Styles
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+section {
+	padding: 15px;
+
+	h4 {
+		margin-bottom: 0px;
+	}
+	span {
+		position: relative;
+		top: 1px;
+	}
+}
+
+
+
+/* Footer Styles
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+footer {
+	@include ribbon;
+	padding: 5px 15px 5px 15px;
+	text-align: center;
+
+	p {
+		margin-bottom: 0;
+		padding: 7px 15px 7px 15px;
+		font-size: 85%;
+		.icon {
+			font-size: 24px;
+			padding: 0 15px 0 15px;
+		}
+	}
+	.foot2 {
+		text-align: center;
+	}
+	.foot3 {
+		text-align: center;
+	}
+
+	@media (min-width: 550px) {
+		padding: 4px 0 4px 0;
+		text-align: left;
+		p {
+			padding: 0 15px 0 15px;
+			.icon {
+				font-size: 16px;
+				padding: 0 5px 0 5px;
+			}			
+		}
+
+		.foot3 {
+			text-align: right;
+		}
+	}
+}
+
+/* Miscellaneous Styles
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.center {
+	text-align: center;
+}
+.responsive {
+	max-width: 100%;
+	height: auto;
+	margin-bottom: 15px;
+	border: $border-gray;
+}
+img.splash {
+	@include shadows(0, 0, 15px, 0, #000);
+}
+.archives {
+	text-align: left;
+	ul {
+		margin: 0;
+		padding: 0;
+	}
+	li {
+		list-style-type: none;
+		margin: 0 0 15px 0;
+		padding: 0 0 0 10px;
+		line-height: 1;
+		border-left: $border-gray;
+
+
+		em {
+			font-size: 85%;
+		}
+	}
+	@media (min-width: 550px) {
+		li {
+			border-left: none;
+			border-right: $border-gray;
+			padding: 0 10px 0 0;
+		}
+	}
+}
+.tag {
+	border-top: $border-gray;
+	border-bottom: $border-gray;
+	color: $light-gray;
+	margin-bottom: 10px;
+
+	.tagItem {
+		display: inline-block;
+		padding: 5px;
+	}
+}
+.dropcap {
+	float: left;
+	font-size: 9rem;
+	line-height: 7.2rem;
+	padding: 0 5px 0 0;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+.post-excerpt .dropcap {
+	float: none;
+	font-size: 1.5rem;
+	line-height: 2rem;
+	padding: 0;
+	font-family: 'Droid Sans', sans-serif;
+	position: initial;
+}
+// Includes header, italicized sub-header, and horizontal rule
+.contentHead {
+	margin: 0;
+	padding: 0;
+	p {
+		margin: 0;
+		padding: 0;
+	}
+	hr {
+		margin: 0 0 15px 0;
+		padding: 0; 
+	}
+}
+.contentBody {
+	p {
+		margin: 0 0 15px 0;
+	}
+}
+
+.blog {
+	img {
+		@extend.responsive;
+	}
+	h3 {
+		margin-bottom: 0.5rem;
+	}
+}
+

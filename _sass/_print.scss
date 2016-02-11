@@ -1,0 +1,33 @@
+@media print {
+	//Reset styles for printing
+	* { 
+	background: transparent !important; 
+	color: #000 !important; 
+	text-shadow: none !important; 
+	filter:none !important; 
+	-ms-filter: none !important; 
+	background-image: none;
+	}
+
+	.container {
+		width: 100%;
+		border: none;
+		padding: 0!important;
+		margin: 0!important;
+	}
+	header, nav, footer, .printIcons {
+		display: none;
+	}
+	p {
+		color: #000!important;
+	}
+	h1, h2, h3, h4, h5, .skillItem, .subtitle {
+		color: #222!important;
+	}
+	.skillItem {
+		padding-right: 5px!important;
+	}
+	.subtitle, .text {
+		padding-bottom: 5px!important;
+	}
+}

@@ -1,0 +1,29 @@
+---
+layout: default
+---
+<div class="row">
+    <div class="nine columns blog">
+        <h3>{{ page.title }}</h3>
+        <p><em>{{ page.date | date: "%A, %B %d, %Y" }}</em></p>
+        <div class="tag">
+          <span class="icon-price-tag icon"></span>
+            {% for tag in page.tags %}
+              <div class="tagItem"><a href="/tag/{{ tag }}">{{ tag }}</a></div>
+            {% endfor %}
+        </div>
+        <div>{{ content }}</div>
+    </div>
+
+    <div class="three columns archives">
+      	<h3>Archives</h3>
+      	<ul>
+        	{% for post in site.posts %}
+          	<li>
+            	<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            	<br />
+            	<em>{{ post.date | date: "%b %-d, %Y" }}</em>
+          	</li>
+        	{% endfor %}
+      	</ul>
+    </div>
+</div>

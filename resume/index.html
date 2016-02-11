@@ -1,0 +1,84 @@
+---
+layout: default
+title: Resume
+skill:
+- Adobe Creative Suite
+- Git
+- Sublime
+- HTML/XML
+- CSS/SASS
+- JavaScript/jQuery
+- Wordpress
+- Adobe Experience Manager
+- Windows/OS X
+---
+
+
+  <div class="row">
+    <div class="twelve columns">
+      <div class="printIcons">
+        <a href="Resume_AndrewMaul.pdf" target="new">
+          <span class="icon-file-pdf"></span>
+        </a>
+        <a href="Resume_AndrewMaul.docx">
+          <span class="icon-file-word"></span>    
+        </a>
+        <a href="javascript:window.print()">
+          <span class="icon-print"></span>
+        </a>
+      </div>
+      <div class="contentHead">
+        <h4>Skills</h4>
+        <p><em>Tools, Workflow, &amp; Languages</em></p>
+        <hr>
+      </div>
+      <div class="skills">
+        {% for skill in page.skill %}
+          <div class="skillItem">
+            <span class="icon-checkmark"></span>
+            {{ skill }}
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="twelve columns">
+        <div class="contentHead">
+          <h4>Experience</h4>
+          <p><em>History of Employment</em></p>
+          <hr>
+        </div>
+
+      <div class="jobs">
+        <h5>meltmedia&nbsp;</h5><h5 class="white">- Front-End Developer</h5>
+        <div class="subtitle">September 2015 - Present</div>
+        <p class="text">Responsibilites include CSS breakouts in the Adobe Experience Manager platform, creating solutions and interactive components in javaScript, and compatibility testing. I work with project managers, other developers, and designers to create stunning and functional media for the web.  </p>
+
+        <h5>Northern Arizona University&nbsp;</h5><h5 class="white">- Multimedia Technical Designer</h5>
+        <div class="subtitle">June 2014 - September 2015</div>
+        <p class="text">As the multimedia technical designer of the Extended Campuses'​ Personalized Learning Degree team, I worked closely with IT, Lead Faculty, and the Curriculum Manager. The role was dynamic, and included a mix of administrative, developmental, and trouble-shooting tasks. I worked in both Pearson's eCollege and Moodlerooms learning management systems on a daily basis. I also provided teams with technical solutions to improve organizational efficiency.</p>
+
+        <h5>Blue Earth Interactive&nbsp;</h5><h5 class="white">- Front-End Developer Intern</h5>
+        <div class="subtitle">January 2014 - May 2014</div>
+        <p class="text">Assisted the lead developers in a number of web and software projects, creating solutions in HTML5, CSS3, PHP, JavaScript, jQuery, and XML. I used Adobe Photoshop and Illustrator for image editing and creation, and frequently worked in Wordpress. I was recognized for my strengths in CSS layouts and responsive implementation.</p>
+
+        <h5>University of Advancing Technology&nbsp;</h5><h5 class="white">- Lead Curriculum Web Specialist</h5>
+        <div class="subtitle">May 2011 - November 2013</div>
+        <p class="text">Team lead of the Curriculum Department. I maintained, edited, and updated content in the eCollege LMS. I acted as a consult to resident and online faculty on curriculum, and created web-based solutions in HTML, CSS, and JavaScript.</p>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="twelve columns">
+      <div class="contentHead">
+        <h4>Education</h4>
+        <hr>
+      </div>
+      <div class="jobs">
+        <h5>University of Advancing Technology&nbsp;</h5><h5 class="white">- B.A. Multimedia</h5>
+        <div class="subtitle">September 2008 - May 2011</div>
+      </div>
+    </div>
+  </div>
+

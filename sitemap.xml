@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>http://andrewmaul.com/</loc>
+  <lastmod>2015-11-03T20:24:01+00:00</lastmod>
+</url>
+<url>
+  <loc>http://andrewmaul.com/projects/</loc>
+  <lastmod>2015-11-03T20:24:04+00:00</lastmod>
+</url>
+<url>
+  <loc>http://andrewmaul.com/resume/</loc>
+  <lastmod>2015-11-03T20:24:04+00:00</lastmod>
+</url>
+<url>
+  <loc>http://andrewmaul.com/2015/11/03/new-site-launch.html</loc>
+  <lastmod>2015-11-03T20:24:01+00:00</lastmod>
+</url>
+<url>
+  <loc>http://andrewmaul.com/tag/Development/</loc>
+  <lastmod>2015-11-03T20:24:05+00:00</lastmod>
+</url>
+<url>
+  <loc>http://andrewmaul.com/tag/Jekyll/</loc>
+  <lastmod>2015-11-03T20:24:05+00:00</lastmod>
+</url>
+<url>
+  <loc>http://andrewmaul.com/tag/Blogging/</loc>
+  <lastmod>2015-11-03T20:24:05+00:00</lastmod>
+</url>
+</urlset>

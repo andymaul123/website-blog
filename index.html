@@ -1,0 +1,31 @@
+---
+layout: default
+title: index
+---
+
+
+
+  <h3>Welcome!</h3>
+  <p>
+    Hi there. My name is Andrew Maul, and I'm a front-end developer and game designer. My other interests include writing, painting, and <a href="https://500px.com/andymaul123" target="new">photography</a>.
+  </p>
+  <p>I have professional experience in web-, game-, and curriculum-development industries. In my spare time I'm probably working on a landscape painting, my board game HeroCraft, or my novel <em>A Life of Rogues</em>. On my <a href="{{ site.posts.first.url }}">blog</a> I post updates for my side projects, as well as anything new or interesting I've learned. Take a look!
+  </p>
+  <p>
+  	I love great design, and I'm always looking for opportunities to grow. Check out my <a href="{{ site.baseurl }}/resume">resume</a> and if you're interested in my work <a href="mailto:andymaul123@gmail.com">let me know</a>!
+  </p>
+  <div class="center">
+  	<a href="{{ site.baseurl }}/projects#herocraft">
+      <img src="../image/herocraft.jpg" class="splash responsive">
+    </a>
+  </div>
+
+  <hr>
+
+  <h3>Latest Blog Post</h3>
+  <h4><a href="{{ site.posts.first.url }}">{{ site.posts.first.title }}</a></h4>
+  <p><em>{{ site.posts.first.date | date: "%A, %B %d, %Y" }}</em></p>
+  <div class="post-excerpt">{{ site.posts.first.excerpt }}</div>
+  <p><a href="{{ site.posts.first.url }}"><span class="icon-forward3 icon"></span>Read the full post.</a></p>
+
+

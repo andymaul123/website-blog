@@ -1,0 +1,90 @@
+/* IcoMoon Font Icons
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+@font-face {
+    font-family: 'icomoon';
+    src:url('../fonts/icomoon.eot?-vbxtj3');
+    src:url('../fonts/icomoon.eot?#iefix-vbxtj3') format('embedded-opentype'),
+        url('../fonts/icomoon.woff?-vbxtj3') format('woff'),
+        url('../fonts/icomoon.ttf?-vbxtj3') format('truetype'),
+        url('../fonts/icomoon.svg?-vbxtj3#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    font-family: 'icomoon';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-px:before {
+    content: "\e606";
+}
+.icon-print:before {
+    content: "\e600";
+}
+.icon-file-pdf:before {
+    content: "\e604";
+}
+.icon-file-word:before {
+    content: "\e605";
+}
+.icon-blogger:before {
+    content: "\e602";
+}
+.icon-linkedin:before {
+    content: "\e603";
+}
+.icon-googleplus:before {
+    content: "\e601";
+}
+.icon-github:before {
+    content: "\e607";
+}
+.icon-price-tag:before {
+    content: "\e804";
+}
+.icon-quotes-left:before {
+    content: "\e800";
+}
+.icon-quotes-right:before {
+    content: "\e801";
+}
+.icon-heart:before {
+    content: "\e802";
+}
+.icon-forward3:before {
+    content: "\e803";
+}
+.icon-circle-right:before {
+    content: "\e805";
+}
+.icon-circle-left:before {
+    content: "\e806";
+}
+.icon-checkmark:before {
+    content: "\e900";
+}
+
+.icon {
+    text-shadow: 1px 1px #000;
+}
+.iconBig {
+    font-size: 24px;
+    padding: 0 1% 0 1%;
+    text-shadow: 1px 1px #000;
+}
+.icons a:link, .icons a:visited {
+    color: $light-gray;
+}
+.icons a:hover {
+    color: $blue;
+    text-decoration: none;
+}

@@ -1,0 +1,22 @@
+# Site settings
+title: Andrew Maul
+subtitle: Designer & Developer
+email: andymaul123@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  The online design portfolio of Andrew Maul. Web dev, game design, digital painting, and writing are all at home here.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://andrewmaul.com" # the base hostname & protocol for your site
+year: 2016 
+
+#Development
+lorem: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac ex euismod, maximus quam id, pellentesque purus. Fusce eget mauris diam. Suspendisse hendrerit nec tellus sit amet tempor. Mauris quis elit ac velit elementum vestibulum. Curabitur dui nisi, sagittis sed luctus cursus, ultricies nec neque. Ut nibh orci, vestibulum at convallis nec, malesuada vitae leo. Sed gravida erat commodo neque malesuada, vel semper sapien placerat. Sed egestas auctor ante, eget porttitor tortor dictum non. Aenean faucibus augue non tempor dapibus."
+
+# Social Links
+linkedIn: "http://linkedin.com/in/andymaul"
+500px: "http://500px.com/andymaul123"
+github: "http://github.com/andymaul123"
+
+# Build settings
+markdown: kramdown
+
+
