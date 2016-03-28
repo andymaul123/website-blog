@@ -281,4 +281,53 @@ img.splash {
 		margin-bottom: 0.5rem;
 	}
 }
+.projectContainer {
+	display: block;
+	height: auto;
+	.projectHead {
+		width: 100%;
+		height: auto;
+		border-bottom: $border-gray;
+		margin-bottom: 1rem;
+		position: relative;
+		p {
+			margin-bottom: 1rem;
+		}
+		&:after {
+			content: '';
+			width: 0; 
+			height: 0; 
+			border-left: 8px solid transparent;
+			border-right: 8px solid transparent;
+			border-top: 8px solid $blue;
+			border-bottom: 8px solid transparent;
+			position: absolute;
+			top: -25px;
+			left: 98%;
+		}
+	}
+	.projectBody {
+		height: 100%;
+		max-height: 1px;
+		overflow: hidden;
+		-webkit-transition: all 0.5s ease;
+		-moz-transition: all 0.5s ease;
+		-o-transition: all 0.5s ease;
+		transition: all 0.5s ease;
+	}
+	&.open {
+		.projectHead {
+			&:after {
+				border-left: 8px solid transparent;
+				border-right: 8px solid transparent;
+				border-top: 8px solid transparent;
+				border-bottom: 8px solid $blue;
+			}
+		}
+		.projectBody {
+			max-height: 800px;
+			margin-bottom: 2rem;
+		}
+	}
+}
 
