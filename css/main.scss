@@ -4,60 +4,18 @@
 @charset "utf-8";
 
 // Variables
-$light-gray: #ababab;
-$blue: #488fcd;
 $white: #fff;
-$green: #3CB878;
-$light-blue: #8393CA;
-$transparent-gray: rgba(255, 255, 255, 0.05);
-$code-background: rgba(0, 0, 0, 0.25);
-$border-gray: 1px #333 solid;
-$tablet: 545px;
+$blue: #99ccff;
+$yellow: #c7ff6f;
+$darkGray: #121212;
+$accentGray: #333;
 
 
-// Mixins
-@mixin background-body {
-	background-image: url('../image/background.png');
-	background-repeat:repeat;
-}
-@mixin background-header {
-	background-image: url('../image/headerbg.jpg');
-	background-repeat:repeat;
-}
-@mixin ribbon {
-	background-color: $transparent-gray;
-	border-top: $border-gray;
-	border-bottom: $border-gray;
-}
-@mixin shadows($hOff, $vOff, $blur, $spread, $color) {
-  -webkit-box-shadow: $hOff $vOff $blur $spread $color;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
-  -moz-box-shadow:    $hOff $vOff $blur $spread $color;  /* Firefox 3.5 - 3.6 */
-  box-shadow:         $hOff $vOff $blur $spread $color;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
-}
-
-
-
-
-// Using media queries with like this:
-// @include media-query($on-palm) {
-//     .wrapper {
-//         padding-right: $spacing-unit / 2;
-//         padding-left: $spacing-unit / 2;
-//     }
-// }
-@mixin media-query($device) {
-    @media screen and (max-width: $device) {
-        @content;
-    }
-}
 
 
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-        //"base",
-        //"layout",
-        //"syntax-highlighting",
         "normalize",
         "skeleton",
         "icons",

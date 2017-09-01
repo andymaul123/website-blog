@@ -5,14 +5,11 @@
 
 <body{% if page.title %} class="{{ page.title }}"{% endif %}>
   <div class="container">
-    {% include header.html %}
-
     <section>
       {{ content }}
     </section>
-
-    {% include footer.html %}
   </div>
+  {% include footer.html %}
 </body>
 
 </html>
