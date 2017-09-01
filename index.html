@@ -4,7 +4,7 @@ title: Andrew Maul. Developer, Writer, Artist.
 ---
 
   <!-- Giant Logo -->
-  <img src="../image/logo.jpg" alt="" />
+  <img src="../image/logo.svg" alt="logo" class="logo" />
 
   <!-- Animated Typewriter Container -->
 
@@ -14,14 +14,19 @@ title: Andrew Maul. Developer, Writer, Artist.
 
   <!-- Navigation -->
 
-  {% include navigation.html %}
+  <nav>
+    <a href="{{ site.baseurl }}/" class="active">< projects /></a>
+    <a href="+{{ site.baseurl }}/about">< resume/about /></a>
+    <a href="{{ site.posts.first.url }}">< blog /></a>
+  </nav>
 
   <!-- Masonry Section of Interests -->
 
-  {% include projects.html %}
+  
 
   <!-- Footer -->
 
   {% include footer.html %}
 
-
+<!-- Masonry Script Load -->
+<script type="text/javascript" src="../js/masonry.pkgd.min.js"></script>
