@@ -31,12 +31,32 @@ a:hover {
 .logo {
     
 }
+.grid-sizer {
+    width: calc(25% - 10px);
+}
+.grid-item {
+    margin: 5px 0;
+    img {
+        width: 100%;
+        display: block;
+    }
+}
+.grid-item-100 {
+    width: calc(100% - 10px);
+}
 .grid-item-75 {
-    width: 75%;
+    width: calc(75% - 10px);
 }
 .grid-item-50 {
-    width: 50%;
+    width: calc(50% - 10px);
 }
 .grid-item-25 {
-    width: 25%;
+    width: calc(25% - 10px);
 }
+.outline {
+    border-width: 1px;
+    border-style: solid;
+    border-color: $accentGray;
+}
+
+

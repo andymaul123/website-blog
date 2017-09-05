@@ -3,33 +3,37 @@ layout: default
 title: Andrew Maul. Developer, Writer, Artist.
 ---
 
-  <!-- Giant Logo -->
-  <img src="../image/logo.svg" alt="logo" class="logo" />
+  <div class="row">
+    <div class="twelve columns">
 
-  <!-- Animated Typewriter Container -->
+      <!-- Giant Logo -->
+      <img src="../image/logo.svg" alt="logo" class="logo" />
 
-  <div class="homepage-animation">
+      <!-- Animated Typewriter Container -->
 
+      <div class="homepage-animation">
+
+      </div>
+
+      <!-- Navigation -->
+
+      <nav>
+        <a href="{{ site.baseurl }}/" class="active">< projects /></a>
+        <a href="+{{ site.baseurl }}/about">< resume/about /></a>
+        <a href="{{ site.posts.first.url }}">< blog /></a>
+      </nav>
+
+      <!-- Masonry Section of Interests -->
+      <div class="grid">
+        <div class="grid-sizer"></div>
+        {% for post in site.posts %}
+          {% if post.featured == true %}
+            <div class="grid-item {{ post.gridClass }}"><a href="{{ post.url }}"><img src="{{ site.baseurl }}/image/assets/{{ post.imageName }}" alt="" class="outline"></a></div>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
   </div>
-
-  <!-- Navigation -->
-
-  <nav>
-    <a href="{{ site.baseurl }}/" class="active">< projects /></a>
-    <a href="+{{ site.baseurl }}/about">< resume/about /></a>
-    <a href="{{ site.posts.first.url }}">< blog /></a>
-  </nav>
-
-  <!-- Masonry Section of Interests -->
-  <div class="grid">
-    <div class="grid-sizer"></div>
-    {% for post in site.posts %}
-      {% if post.featured == true %}
-        <div class="grid-item-25"><a href="post.url"><img src="{{ site.baseurl }}/image/assets/{{ post.image }}" alt=""></a></div>
-      {% endif %}
-    {% endfor %}
-  </div>
-
   <!-- Footer -->
 
   {% include footer.html %}
@@ -37,10 +41,15 @@ title: Andrew Maul. Developer, Writer, Artist.
 <!-- Masonry Script Load -->
 <script type="text/javascript" src="../js/jquery-3.2.1.min.js"></script>
 <script type="text/javascript" src="../js/masonry.pkgd.min.js"></script>
+<script type="text/javascript" src="../js/imagesLoaded.min.js"></script>
 <script type="text/javascript">
-  $('.grid').masonry({
+  var $grid = $('.grid').masonry({
     itemSelector: '.grid-item',
     columnWidth: '.grid-sizer',
-    percentPosition: true
+    percentPosition: true,
+    gutter: 10
+  });
+  $grid.imagesLoaded().progress( function() {
+    $grid.masonry('layout');
   });
 </script>

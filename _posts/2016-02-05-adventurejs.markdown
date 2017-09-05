@@ -2,6 +2,9 @@
 layout: post
 title:  "Adventure.js"
 date:   2016-02-05
+featured: true
+imageName: adventure.jpg
+gridClass: grid-item-50
 tags:
 - Development
 - javaScript
