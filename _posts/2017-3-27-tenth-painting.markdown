@@ -2,6 +2,8 @@
 layout: post
 title:  "Digital Painting #10"
 date:   2017-03-27
+featured: true
+image: painting10.jpg
 tags:
 - Digital Painting
 ---
