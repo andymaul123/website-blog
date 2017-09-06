@@ -17,15 +17,16 @@ title: Andrew Maul. Developer, Writer, Artist.
 
       <!-- Navigation -->
 
-      <nav>
-        <a href="{{ site.baseurl }}/" class="active">< projects /></a>
-        <a href="+{{ site.baseurl }}/about">< resume/about /></a>
-        <a href="{{ site.posts.first.url }}">< blog /></a>
+      <nav class="row">
+        <div class="four columns left"><a href="{{ site.baseurl }}/" class="active">< projects /></a></div>
+        <div class="four columns center"><a href="+{{ site.baseurl }}/about">< resume/about /></a></div>
+        <div class="four columns right"><a href="{{ site.posts.first.url }}">< blog /></a></div>
       </nav>
 
       <!-- Masonry Section of Interests -->
       <div class="grid">
         <div class="grid-sizer"></div>
+        <div class="gutter-sizer"></div>
         {% for post in site.posts %}
           {% if post.featured == true %}
             <div class="grid-item {{ post.gridClass }}"><a href="{{ post.url }}"><img src="{{ site.baseurl }}/image/assets/{{ post.imageName }}" alt="" class="outline"></a></div>
@@ -46,8 +47,8 @@ title: Andrew Maul. Developer, Writer, Artist.
   var $grid = $('.grid').masonry({
     itemSelector: '.grid-item',
     columnWidth: '.grid-sizer',
-    percentPosition: true,
-    gutter: 10
+    gutter: '.gutter-sizer',
+    percentPosition: true
   });
   $grid.imagesLoaded().progress( function() {
     $grid.masonry('layout');

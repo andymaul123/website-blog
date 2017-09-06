@@ -4,7 +4,7 @@ title:  "Digital Painting #10"
 date:   2017-03-27
 featured: true
 imageName: painting10.jpg
-gridClass: grid-item-100
+gridClass: grid-item-large
 tags:
 - Digital Painting
 ---

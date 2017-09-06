@@ -32,31 +32,37 @@ a:hover {
     
 }
 .grid-sizer {
-    width: calc(25% - 10px);
+    width: 24%;
+}
+.grid-item-small {
+    width: 24%;
+}
+.grid-item-large {
+    width: 48%;
+}
+.grid-item-xl {
+    width: 70%;
+}
+.gutter-sizer {
+    width: 1%;
 }
 .grid-item {
-    margin: 5px 0;
     img {
         width: 100%;
         display: block;
     }
-}
-.grid-item-100 {
-    width: calc(100% - 10px);
-}
-.grid-item-75 {
-    width: calc(75% - 10px);
-}
-.grid-item-50 {
-    width: calc(50% - 10px);
-}
-.grid-item-25 {
-    width: calc(25% - 10px);
 }
 .outline {
     border-width: 1px;
     border-style: solid;
     border-color: $accentGray;
 }
-
-
+.left {
+    text-align: left;
+}
+.right {
+    text-align: right;
+}
+.center {
+    text-align: center;
+}
