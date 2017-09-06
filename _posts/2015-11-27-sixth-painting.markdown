@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Digital Painting #6"
+overlayTitle: Painting 6
 date:   2015-11-27
 featured: true
 imageName: painting6.jpg

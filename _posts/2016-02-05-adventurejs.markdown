@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Adventure.js"
+overlayTitle: Adventure.js
 date:   2016-02-05
 featured: true
 imageName: adventure.jpg
