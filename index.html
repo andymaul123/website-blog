@@ -7,7 +7,9 @@ title: Andrew Maul. Developer, Writer, Artist.
     <div class="twelve columns">
 
       <!-- Giant Logo -->
-      <img src="../image/logo.svg" alt="logo" class="logo" />
+      <div class="logo center">
+        <img src="../image/logo.svg" alt="logo" />
+      </div>
 
       <!-- Animated Typewriter Container -->
 
@@ -17,10 +19,10 @@ title: Andrew Maul. Developer, Writer, Artist.
 
       <!-- Navigation -->
 
-      <nav class="row">
-        <div class="four columns left"><a href="{{ site.baseurl }}/" class="active">< projects /></a></div>
-        <div class="four columns center"><a href="+{{ site.baseurl }}/about">< resume/about /></a></div>
-        <div class="four columns right"><a href="{{ site.posts.first.url }}">< blog /></a></div>
+      <nav class="nav row">
+        <div class="four columns left"><a href="{{ site.baseurl }}/" class="active no-underline shadows">< projects /></a></div>
+        <div class="four columns center"><a href="+{{ site.baseurl }}/about" class="no-underline shadows">< about /></a></div>
+        <div class="four columns right"><a href="{{ site.posts.first.url }}" class="no-underline pull-left shadows">< blog /></a></div>
       </nav>
 
       <!-- Masonry Section of Interests -->
@@ -29,28 +31,35 @@ title: Andrew Maul. Developer, Writer, Artist.
         <div class="gutter-sizer"></div>
         {% for post in site.posts %}
           {% if post.featured == true %}
-            <div class="grid-item {{ post.gridClass }}"><a href="{{ post.url }}"><img src="{{ site.baseurl }}/image/assets/{{ post.imageName }}" alt="" class="outline"></a></div>
+            <div class="grid-item">
+              <a href="{{ post.url }}">
+                <img src="{{ site.baseurl }}/image/assets/{{ post.imageName }}" alt="" class="outline">
+              </a>
+              <div class="hidden overlay">
+                <div class="overlay-info">
+                  <a href="{{ post.url }}" class="no-underline shadows">{{ post.overlayTitle }}</a>
+                </div>
+              </div>
+            </div>
           {% endif %}
         {% endfor %}
       </div>
     </div>
   </div>
-  <!-- Footer -->
-
-  {% include footer.html %}
 
 <!-- Masonry Script Load -->
 <script type="text/javascript" src="../js/jquery-3.2.1.min.js"></script>
 <script type="text/javascript" src="../js/masonry.pkgd.min.js"></script>
 <script type="text/javascript" src="../js/imagesLoaded.min.js"></script>
 <script type="text/javascript">
+$(document).ready(function(){
   var $grid = $('.grid').masonry({
     itemSelector: '.grid-item',
-    columnWidth: '.grid-sizer',
-    gutter: '.gutter-sizer',
-    percentPosition: true
+    columnWidth: '.grid-sizer'
   });
   $grid.imagesLoaded().progress( function() {
     $grid.masonry('layout');
   });
+});
+
 </script>

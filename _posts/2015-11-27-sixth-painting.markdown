@@ -2,6 +2,9 @@
 layout: post
 title:  "Digital Painting #6"
 date:   2015-11-27
+featured: true
+imageName: painting6.jpg
+gridClass: grid-item-small
 tags:
 - Digital Painting
 ---
