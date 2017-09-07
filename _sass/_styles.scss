@@ -88,6 +88,37 @@ a:hover {
 }
 .footer {
     border-top: 1px solid $accentGray;
+    padding: 1rem 2rem;
+}
+.email {
+    display: table;
+    &:hover {
+        .icon-envelope2 {
+            display: none;
+        }
+        .icon-envelope, .email-address {
+            display: table-cell;
+        }
+    }
+}
+.icon-envelope, .icon-envelope2 {
+    display: table-cell;
+    width: 3.5rem;
+    vertical-align: middle;
+    font-size: 3rem;
+}
+.email-address {
+    display: table-cell;
+    vertical-align: middle;
+    padding-top: 7px;
+}
+.social {
+    a {
+        margin-right: 1.5rem;
+        &:last-child {
+            margin-right: 0;
+        }
+    }
 }
 
 /* Modular, atomic-style classes
