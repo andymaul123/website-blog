@@ -14,8 +14,6 @@ h1, h2, h3, h4, h5, h6 {
     color: $yellow;
 }
 
-
-
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
@@ -26,7 +24,7 @@ a:hover {
   color: $yellow;
 }
 
-/* Misc
+/* Layout & Structure
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .logo {
@@ -35,10 +33,15 @@ a:hover {
         margin: 3rem;
     }
 }
+.nav {
+    a {
+        font-size: 2rem;
+        text-decoration: none;
+    }
+}
 .grid-sizer {
     width: 50%;
 }
-
 .grid-item {
     width: 50%;
     a {
@@ -83,12 +86,13 @@ a:hover {
         }
     }
 }
-.nav {
-    a {
-        font-size: 2rem;
-        text-decoration: none;
-    }
+.footer {
+    border-top: 1px solid $accentGray;
 }
+
+/* Modular, atomic-style classes
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
 .outline {
     border-width: 1px;
     border-style: solid;
