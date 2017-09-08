@@ -37,7 +37,11 @@ title: Andrew Maul. Developer, Writer, Artist.
               </a>
               <div class="hidden overlay">
                 <div class="overlay-info">
-                  <a href="{{ post.url }}" class="no-underline shadows">{{ post.overlayTitle }}</a>
+                  <a href="{{ post.url }}" class="no-underline shadows">{{ post.overlayTitle }}
+                    {% for entry in post.icons %}
+                      <span class="icon-{{entry}} icon"></span>
+                    {% endfor %}
+                  </a>
                 </div>
               </div>
             </div>

@@ -5,7 +5,10 @@ overlayTitle: EDH Draft Site
 date:   2017-05-01
 featured: true
 imageName: draftleague.jpg
-gridClass: grid-item-small
+
+icons:
+- code
+
 tags:
 - Development
 - Javascript
