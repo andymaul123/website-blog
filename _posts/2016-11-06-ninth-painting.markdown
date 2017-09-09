@@ -5,7 +5,11 @@ overlayTitle: Painting 9
 date:   2016-11-06
 featured: true
 imageName: painting9.jpg
-gridClass: grid-item-large
+animation: center
+
+icons:
+- art
+
 tags:
 - Digital Painting
 ---

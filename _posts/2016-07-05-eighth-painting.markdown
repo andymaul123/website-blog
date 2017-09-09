@@ -5,7 +5,12 @@ overlayTitle: Painting 8
 date:   2016-07-05
 featured: true
 imageName: painting8.jpg
-gridClass: grid-item-large
+animation: center
+
+icons:
+- art
+
+
 tags:
 - Digital Painting
 ---

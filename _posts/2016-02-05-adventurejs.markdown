@@ -5,7 +5,12 @@ overlayTitle: Adventure.js
 date:   2016-02-05
 featured: true
 imageName: adventure.jpg
-gridClass: grid-item-small
+animation: left
+
+icons:
+- code
+
+
 tags:
 - Development
 - javaScript

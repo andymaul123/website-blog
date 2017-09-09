@@ -5,7 +5,11 @@ overlayTitle: Painting 10
 date:   2017-03-27
 featured: true
 imageName: painting10.jpg
-gridClass: grid-item-large
+animation: center
+
+icons:
+- art
+
 tags:
 - Digital Painting
 ---

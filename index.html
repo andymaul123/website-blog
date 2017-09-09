@@ -33,11 +33,14 @@ title: Andrew Maul. Developer, Writer, Artist.
           {% if post.featured == true %}
             <div class="grid-item">
               <a href="{{ post.url }}">
-                <img src="{{ site.baseurl }}/image/assets/{{ post.imageName }}" alt="" class="outline">
+                <div class="animation-wrapper outline">
+                  <img src="{{ site.baseurl }}/image/assets/{{ post.imageName }}" alt="" class="animation-{{ post.animation }}">
+                </div>
               </a>
               <div class="hidden overlay">
                 <div class="overlay-info">
-                  <a href="{{ post.url }}" class="no-underline shadows">{{ post.overlayTitle }}
+                  <a href="{{ post.url }}" class="no-underline shadows info-link">{{ post.overlayTitle }}</a>
+                  <a href="{{ post.url }}" class="no-underline shadows info-icon">
                     {% for entry in post.icons %}
                       <span class="icon-{{entry}} icon"></span>
                     {% endfor %}

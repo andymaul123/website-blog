@@ -5,6 +5,7 @@ overlayTitle: EDH Draft Site
 date:   2017-05-01
 featured: true
 imageName: draftleague.jpg
+animation: left
 
 icons:
 - code

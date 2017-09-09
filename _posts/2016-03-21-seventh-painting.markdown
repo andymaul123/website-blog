@@ -5,7 +5,12 @@ overlayTitle: Painting 7
 date:   2016-03-21
 featured: true
 imageName: painting7.jpg
-gridClass: grid-item-small
+animation: center
+
+icons:
+- art
+
+
 tags:
 - Digital Painting
 ---
