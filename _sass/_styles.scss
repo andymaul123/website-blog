@@ -67,6 +67,8 @@ a:hover {
             display: block;
             visibility: visible;
             opacity: 1;
+        height: calc(100% - 10px);
+        width: calc(100% - 8px);
             transition: visibility 0s, opacity 0.5s linear;
         }
         .animation-center, .animation-left {
@@ -86,9 +88,9 @@ a:hover {
         left: 0;
         height: calc(100% - 10px);
         width: calc(100% - 8px);
-        background: -webkit-linear-gradient(hsla(0,0%,100%,0) 67%, hsla(0,0%,0%,0.75) 99%, hsla(0,0%,0%,0.75) 100%);
-        background: -o-linear-gradient(hsla(0,0%,100%,0) 67%, hsla(0,0%,0%,0.75) 99%, hsla(0,0%,0%,0.75) 100%);
-        background: linear-gradient(hsla(0,0%,100%,0) 67%, hsla(0,0%,0%,0.75) 99%, hsla(0,0%,0%,0.75) 100%);
+        background: -webkit-linear-gradient(hsla(0,0%,100%,0) 67%, hsla(0,0%,0%,0.85) 99%, hsla(0,0%,0%,0.85) 100%);
+        background: -o-linear-gradient(hsla(0,0%,100%,0) 67%, hsla(0,0%,0%,0.85) 99%, hsla(0,0%,0%,0.85) 100%);
+        background: linear-gradient(hsla(0,0%,100%,0) 67%, hsla(0,0%,0%,0.85) 99%, hsla(0,0%,0%,0.85) 100%);
         pointer-events: none;
     }
     .overlay-info {
@@ -99,7 +101,7 @@ a:hover {
         .info-link, .info-icon {
             position: absolute;
             font-size: 2.5rem;
-            color: $yellow;
+            color: $blue;
             pointer-events: auto;
             padding: 0;
         }
@@ -121,10 +123,16 @@ a:hover {
     display: table;
     &:hover {
         .icon-envelope2 {
-            display: none;
+            visibility: hidden;
+            opacity: 0;
+            width: 0;
+            display: block;
         }
         .icon-envelope, .email-address {
             display: table-cell;
+            visibility: visible;
+            opacity: 1;
+            width: auto;
         }
     }
 }
@@ -138,6 +146,7 @@ a:hover {
     display: table-cell;
     vertical-align: middle;
     padding-top: 7px;
+    padding-left: 10px;
 }
 .social {
     a {
@@ -169,8 +178,9 @@ a:hover {
     margin-right: 5px;
 }
 .hidden {
-    visibility: hidden;
+    visibility: collapse;
     opacity: 0;
+    height: 0;
 }
 .no-underline {
     text-decoration: none;
