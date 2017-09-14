@@ -53,20 +53,3 @@ title: Andrew Maul. Developer, Writer, Artist.
       </div>
     </div>
   </div>
-
-<!-- Masonry Script Load -->
-<script type="text/javascript" src="../js/jquery-3.2.1.min.js"></script>
-<script type="text/javascript" src="../js/masonry.pkgd.min.js"></script>
-<script type="text/javascript" src="../js/imagesLoaded.min.js"></script>
-<script type="text/javascript">
-$(document).ready(function(){
-  var $grid = $('.grid').masonry({
-    itemSelector: '.grid-item',
-    columnWidth: '.grid-sizer'
-  });
-  $grid.imagesLoaded().progress( function() {
-    $grid.masonry('layout');
-  });
-});
-
-</script>

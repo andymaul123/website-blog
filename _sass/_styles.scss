@@ -24,7 +24,7 @@ a:hover {
   color: $yellow;
 }
 
-/* Layout & Structure
+/* Home Page
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .logo {
@@ -67,8 +67,8 @@ a:hover {
             display: block;
             visibility: visible;
             opacity: 1;
-        height: calc(100% - 10px);
-        width: calc(100% - 8px);
+            height: calc(100% - 10px);
+            width: calc(100% - 8px);
             transition: visibility 0s, opacity 0.5s linear;
         }
         .animation-center, .animation-left {
@@ -118,6 +118,9 @@ a:hover {
 .footer {
     border-top: 1px solid $accentGray;
     padding: 1rem 2rem;
+    .footer-link {
+        font-size: 1.3rem;
+    }
 }
 .email {
     display: table;
@@ -157,6 +160,26 @@ a:hover {
     }
 }
 
+/* Post-specific styles
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.fullscreen {
+    position: relative;
+    cursor: pointer;
+}
+.dropcap {
+    float: left;
+    font-size: 9rem;
+    line-height: 7.2rem;
+    padding: 0 5px 0 0;
+}
+
+.icon-enlarge {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    opacity: 0.5;
+}
+
 /* Modular, atomic-style classes
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
@@ -190,4 +213,9 @@ a:hover {
 }
 .active {
     color: $yellow;
+}
+img {
+    height: auto;
+    max-width: 100%;
+    display: block;
 }
