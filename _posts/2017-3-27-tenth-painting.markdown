@@ -17,7 +17,7 @@ tags:
 <span class="dropcap">P</span>ainting #10 was a big accomplishment. I'm at around 1.5 years into my painting journey at this point, and I've made pretty decent progress when you compare them against each other. For this piece I wanted to go big or go home. In January I had the idea of making something for my brother's birthday, which is the end of March, leaving me a solid three months to push myself. My brother was on board with the idea and requested a forest scene. Before I ramble too much more, here's the finished piece.
 
 <div class="fullscreen">
-    <img src="{{ site.baseurl }}/image/assets/{{ page.imageName }}" class="outline shadows">
+    <img src="{{ site.baseurl }}/image/assets/{{ page.imageName }}" class="outline shadows photo">
     <span class="icon-enlarge icon"></span>
 </div>
 

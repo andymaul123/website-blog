@@ -18,52 +18,29 @@
   font-variant: normal;
   text-transform: none;
   line-height: 1;
+  font-size: 2.5rem;
 
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-mail:before {
-  content: "\e906";
-}
 .icon-envelope:before {
   content: "\e907";
 }
 .icon-envelope2:before {
   content: "\e908";
 }
-.icon-brush:before {
-  content: "\e900";
-}
-.icon-painting:before {
-  content: "\e900";
-}
 .icon-art:before {
   content: "\e900";
 }
-.icon-drawing:before {
-  content: "\e900";
-}
-.icon-type:before {
-  content: "\e901";
-}
 .icon-write:before {
-  content: "\e901";
-}
-.icon-compose:before {
-  content: "\e901";
-}
-.icon-edit:before {
-  content: "\e901";
-}
-.icon-blog:before {
   content: "\e901";
 }
 .icon-enlarge:before {
   content: "\e909";
 }
-.icon-embed2:before {
+.icon-code:before {
   content: "\e902";
 }
 .icon-twitter:before {
