@@ -9,6 +9,7 @@ body {
 }
 .container {
     margin-top: 3rem;
+    max-width: 1140px;
 }
 
 /* Typography
@@ -176,6 +177,11 @@ a {
     position: relative;
     cursor: pointer;
     margin-bottom: 2.5rem;
+    &:-webkit-full-screen {
+        .icon-enlarge {
+            display: none;
+        }
+    }
 }
 .dropcap {
     float: left;
@@ -183,15 +189,23 @@ a {
     line-height: 7.2rem;
     padding: 0 5px 0 0;
 }
-
 .icon-enlarge {
     position: absolute;
     bottom: 5px;
     right: 5px;
     opacity: 0.5;
+
 }
 .archives li {
     list-style: none;
+    margin-bottom: 2rem;
+    padding-bottom: 5px;
+    border-bottom: 1px solid $accentGray;
+}
+.post-date {
+    font-family: 'Julius Sans One', sans-serif;
+    color: $white;
+    margin-bottom: 0;
 }
 
 /* Modular, atomic-style classes
