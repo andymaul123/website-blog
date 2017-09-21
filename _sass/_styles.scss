@@ -2,26 +2,34 @@
 
 body {
     font-family: 'Crimson Text', serif;
-    color: $white;
+    color: $textGray;
     background-color: $darkGray;
+    font-size: 1.6rem;
+    line-height: 1.5;
 }
-
+.container {
+    margin-top: 3rem;
+}
 
 /* Typography
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Courier New", Courier, monospace;
-    color: $yellow;
+    //font-family: "Courier New", Courier, monospace;
+    font-family: 'Julius Sans One', sans-serif;
+    color: $white;
 }
 
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: $blue;
-  font-family: "Courier New", Courier, monospace;
-}
-a:hover {
-  color: $yellow;
+  //color: $blue;
+  //font-family: "Courier New", Courier, monospace;
+  font-family: 'Crimson Text', serif;
+  color: $pastel-yellow;
+
+  &:hover {
+    color: $pastel-yellow;
+  }
 }
 
 /* Home Page
@@ -37,6 +45,7 @@ a:hover {
     a {
         font-size: 2rem;
         text-decoration: none;
+        font-family: "Courier New", Courier, monospace;
     }
 }
 .grid-sizer {
@@ -67,8 +76,8 @@ a:hover {
             display: block;
             visibility: visible;
             opacity: 1;
-            height: calc(100% - 10px);
-            width: calc(100% - 8px);
+            height: calc(100% - 11px);
+            width: calc(100% - 10px);
             transition: visibility 0s, opacity 0.5s linear;
         }
         .animation-center, .animation-left {
@@ -85,7 +94,7 @@ a:hover {
     .overlay {
         position: absolute;
         top: 0;
-        left: 0;
+        left: 1px;
         height: calc(100% - 10px);
         width: calc(100% - 8px);
         background: -webkit-linear-gradient(hsla(0,0%,100%,0) 67%, hsla(0,0%,0%,0.85) 99%, hsla(0,0%,0%,0.85) 100%);
@@ -100,8 +109,9 @@ a:hover {
         display: block;
         .info-link, .info-icon {
             position: absolute;
-            font-size: 2.5rem;
-            color: $blue;
+            font-size: 2rem;
+            font-family: 'Julius Sans One', sans-serif;
+            color: $pastel-yellow;
             pointer-events: auto;
             padding: 0;
         }
@@ -180,6 +190,9 @@ a:hover {
     right: 5px;
     opacity: 0.5;
 }
+.archives li {
+    list-style: none;
+}
 
 /* Modular, atomic-style classes
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -213,7 +226,7 @@ a:hover {
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
 }
 .active {
-    color: $yellow;
+    color: $pastel-yellow;
 }
 .photo {
     height: auto;
