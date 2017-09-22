@@ -29,7 +29,8 @@ a {
   color: $pastel-yellow;
 
   &:hover {
-    color: $pastel-yellow;
+    color: $blue;
+    transition: all 0.5s linear;
   }
 }
 
@@ -129,9 +130,13 @@ a {
 .footer {
     border-top: 1px solid $accentGray;
     padding: 1rem 2rem;
+    letter-spacing: 0.05rem;
     .footer-link {
         font-size: 1.3rem;
     }
+}
+.footer-content {
+    font-size: 1.3rem;
 }
 .email {
     display: table;
@@ -173,6 +178,24 @@ a {
 
 /* Post-specific styles
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+.post-nav, .post-nav a {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 1.5rem;
+    color: $commentGray;
+    & a {
+        opacity: 0.5;
+        color: $pastel-yellow;
+        cursor: pointer;
+        &:hover {
+            opacity: 1;
+            transition: all 0.5s linear;
+            color: $blue;
+        }
+        &.active {
+            color: $blue;
+        }
+    }
+}
 .fullscreen {
     position: relative;
     cursor: pointer;
@@ -195,6 +218,9 @@ a {
     right: 5px;
     opacity: 0.5;
 
+}
+.blog h1 {
+    margin-bottom: 0;
 }
 .archives li {
     list-style: none;
@@ -240,7 +266,7 @@ a {
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
 }
 .active {
-    color: $pastel-yellow;
+    color: $blue;
 }
 .photo {
     height: auto;
