@@ -1,7 +1,7 @@
 /* These styles are overrides to the base skeleton template */
 
 body {
-    font-family: 'Crimson Text', serif;
+    font-family: $serif;
     color: $textGray;
     background-color: $darkGray;
     font-size: 1.6rem;
@@ -15,8 +15,8 @@ body {
 /* Typography
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 h1, h2, h3, h4, h5, h6 {
-    //font-family: "Courier New", Courier, monospace;
-    font-family: 'Julius Sans One', sans-serif;
+    //font-family: $monospace;
+    font-family: $title;
     color: $white;
 }
 
@@ -24,8 +24,8 @@ h1, h2, h3, h4, h5, h6 {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
   //color: $blue;
-  //font-family: "Courier New", Courier, monospace;
-  font-family: 'Crimson Text', serif;
+  //font-family: $monospace;
+  font-family: $serif;
   color: $pastel-yellow;
 
   &:hover {
@@ -47,9 +47,30 @@ a {
     a {
         font-size: 2rem;
         text-decoration: none;
-        font-family: "Courier New", Courier, monospace;
+        font-family: $monospace;
     }
 }
+.homepage-animation {
+    margin-bottom: 5rem;
+    .typing {
+        width: 50%;
+        font-family: $monospace;
+        text-align: center;
+        background: $black;
+        border-radius: 5px;
+        border: 1px solid #333;
+        color: #ffff99;
+        font-size: 2rem;
+        padding: 5px 10px;
+        transition: all 2s linear;
+        &.fadeToWhite {
+            color: $white;
+            border-color: $darkGray;
+            background: $darkGray;
+        }
+    }
+}
+
 .grid-sizer {
     width: 50%;
 }
@@ -112,7 +133,7 @@ a {
         .info-link, .info-icon {
             position: absolute;
             font-size: 2rem;
-            font-family: 'Julius Sans One', sans-serif;
+            font-family: $title;
             color: $pastel-yellow;
             pointer-events: auto;
             padding: 0;
@@ -179,7 +200,7 @@ a {
 /* Post-specific styles
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .post-nav, .post-nav a {
-    font-family: "Courier New", Courier, monospace;
+    font-family: $monospace;
     font-size: 1.5rem;
     color: $commentGray;
     & a {
@@ -229,7 +250,7 @@ a {
     border-bottom: 1px solid $accentGray;
 }
 .post-date {
-    font-family: 'Julius Sans One', sans-serif;
+    font-family: $title;
     color: $white;
     margin-bottom: 0;
 }

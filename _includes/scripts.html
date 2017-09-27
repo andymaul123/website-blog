@@ -29,4 +29,23 @@ $(document).ready(function(){
       });
 });
 </script>
+<!-- Homepage Animation -->
+<script type="text/javascript">
+    $(document).ready(function(){
+        var input = $('.typing');
+        var msg = "Writer. Developer. Artist.";
+        var count = 0;
+        // var msgArray = msg.split("");
+
+        var func = setInterval(function(){ 
+            $(input).val(msg.slice(0,count));
+            if (count >= msg.length) {
+                clearInterval(func);
+                $(input).addClass('fadeToWhite');
+            } else {
+                count++;
+            }
+        }, 150);
+    });
+</script>
 
