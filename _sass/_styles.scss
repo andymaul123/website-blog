@@ -26,7 +26,7 @@ a {
   //color: $blue;
   //font-family: $monospace;
   font-family: $serif;
-  color: $pastel-yellow;
+  color: $pastelYellow;
 
   &:hover {
     color: $blue;
@@ -58,7 +58,7 @@ a {
         text-align: center;
         background: $black;
         border-radius: 5px;
-        border: 1px solid #333;
+        border: 1px solid $accentGray;
         color: #ffff99;
         font-size: 2rem;
         padding: 5px 10px;
@@ -134,7 +134,7 @@ a {
             position: absolute;
             font-size: 2rem;
             font-family: $title;
-            color: $pastel-yellow;
+            color: $pastelYellow;
             pointer-events: auto;
             padding: 0;
         }
@@ -205,7 +205,7 @@ a {
     color: $commentGray;
     & a {
         opacity: 0.5;
-        color: $pastel-yellow;
+        color: $pastelYellow;
         cursor: pointer;
         &:hover {
             opacity: 1;
@@ -216,6 +216,9 @@ a {
             color: $blue;
         }
     }
+}
+.post-nav {
+    margin-bottom: 3rem;
 }
 .fullscreen {
     position: relative;
@@ -253,6 +256,64 @@ a {
     font-family: $title;
     color: $white;
     margin-bottom: 0;
+}
+
+/* About Page
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.portrait {
+    float: right;
+    border-radius: 50%;
+    width: 200px;
+    margin-left: 3rem;
+    margin-top: -6rem;
+}
+.resume {
+    position: relative;
+    background: $resumeBlack;
+    width: 100%;
+    padding: 2rem;
+    &:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        border-width: 0px 40px 40px 0px;
+        border-style: solid;
+        border-color: $darkGray $darkGray $accentGray $resumeGray;
+        -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3), -1px 1px 1px rgba(0, 0, 0, 0.2);
+        -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3), -1px 1px 1px rgba(0, 0, 0, 0.2);
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3), -1px 1px 1px rgba(0, 0, 0, 0.2);
+        display: block;
+        width: 0;
+    }
+    &:after {
+        content: "";
+        position: absolute;
+        top: -1px;
+        right: -1px;
+        border-width: 40px 0px 0px 40px;
+        border-style: solid;
+        border-color: $darkGray $darkGray $resumeGray $resumeGray;
+        display: block;
+        width: 0;
+    }
+    .logo {
+        max-width: 100px;
+    }
+    h2 {
+        font-size: 2rem;
+        font-family: $monospace;
+        color: $pastelYellow;
+        border-bottom: 1px solid $accentGray
+    }
+    .skills-list {
+        margin: 0;
+        li {
+            display: inline-block;
+            list-style: none;
+            margin: 0 1rem 0 0;
+        }
+    }
 }
 
 /* Modular, atomic-style classes
@@ -293,4 +354,7 @@ a {
     height: auto;
     max-width: 100%;
     display: block;
+}
+.crimson {
+    font-family: $serif;
 }
