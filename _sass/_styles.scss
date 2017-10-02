@@ -272,6 +272,7 @@ a {
     background: $resumeBlack;
     width: 100%;
     padding: 2rem;
+    margin-bottom: 2rem;
     &:before {
         content: "";
         position: absolute;
@@ -302,9 +303,10 @@ a {
     }
     h2 {
         font-size: 2rem;
-        font-family: $monospace;
-        color: $pastelYellow;
-        border-bottom: 1px solid $accentGray
+        font-family: $title;
+        color: $white;
+        border-bottom: 1px solid $accentGray;
+        padding-bottom: 0.5rem;
     }
     .skills-list {
         margin: 0;
@@ -312,6 +314,34 @@ a {
             display: inline-block;
             list-style: none;
             margin: 0 1rem 0 0;
+        }
+        &:last-child {
+            margin-bottom: 2rem;
+        }
+    }
+    .info-block {
+        padding-left: 2rem;
+        margin-bottom: 2.5rem;
+        h3, h3 a {
+            font-size: 1.8rem;
+            font-family: $monospace;
+            color: $pastelYellow;
+            margin: 0 0 0.5rem 0;
+        }
+        h3 a {
+            &:hover {
+                color: $blue;
+                transition: all 0.5s linear;
+            }
+        }
+        p {
+            margin: 0;
+        }
+        .position {
+            margin: 0 0 1rem 0;
+            em {
+                margin-right: 2rem;
+            }
         }
     }
 }
