@@ -26,8 +26,6 @@ tags:
     <span class="icon-enlarge icon"></span>
 </div>
 
----
-
 Painting #11 started out as a desire to bring to life a scene conjured up in a writing session one fine, summer day. My partner and I have a tradition of going to a local bookstore on Sundays, getting a cup of coffee or beer (they have a bar inside - yeah, it's pretty sweet), and doing some kind of work. Often I find myself ruminating over fantastical worlds and concepts, which frankly, amounts to glorified daydreaming. Lately I've been curating these ideas, hoarding them up like little gems and slowly piecing together a cohesive world; one day I hope to write some books based on the foundations I'm building today. It was one of these little fragments that I chose to base this painting on.
 
 I worked on my eleventh painting, which is unofficially dubbed "Storm's Coming", for most of the summer. My work schedule during the blistering months doesn't lend itself to staying up late and painting, and thus I struggled with completing it. In the end, though, I'm pretty happy with the outcome. I had a _lot_ of fun working on the mass of clouds, and totally underestimated the skill required to paint galaxies. For my next pieces and the immediate future I'm not going to be focusing on original pieces and instead practicing skills using reference photos. Scouring the internet for amazing imagery is a fun little adventure in itself, and I'm excited to not have to agonize over compositions for a little while. Practice makes perfect, and I feel like I need to get in some iterations.

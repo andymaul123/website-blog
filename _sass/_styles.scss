@@ -70,7 +70,9 @@ a {
         }
     }
 }
-
+.grid {
+    margin-bottom: 3rem;
+}
 .grid-sizer {
     width: 50%;
 }
@@ -161,20 +163,6 @@ a {
 }
 .email {
     display: table;
-    &:hover {
-        .icon-envelope2 {
-            visibility: hidden;
-            opacity: 0;
-            width: 0;
-            display: block;
-        }
-        .icon-envelope, .email-address {
-            display: table-cell;
-            visibility: visible;
-            opacity: 1;
-            width: auto;
-        }
-    }
 }
 .icon-envelope, .icon-envelope2 {
     display: table-cell;
@@ -185,8 +173,6 @@ a {
 .email-address {
     display: table-cell;
     vertical-align: middle;
-    padding-top: 7px;
-    padding-left: 10px;
 }
 .social {
     a {
@@ -218,7 +204,7 @@ a {
     }
 }
 .post-nav {
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
 }
 .fullscreen {
     position: relative;
@@ -266,6 +252,7 @@ a {
     width: 200px;
     margin-left: 3rem;
     margin-top: -6rem;
+    margin-bottom: 1rem;
 }
 .resume {
     position: relative;
@@ -301,6 +288,15 @@ a {
     .logo {
         max-width: 100px;
     }
+    .sub-head {
+        margin-bottom: 6rem;
+        font-family: $monospace;
+        color: $pastelYellow;
+        font-size: 2rem;
+    }
+    h1 {
+        margin-bottom: 0;
+    }
     h2 {
         font-size: 2rem;
         font-family: $title;
@@ -312,8 +308,7 @@ a {
         margin: 0;
         li {
             display: inline-block;
-            list-style: none;
-            margin: 0 1rem 0 0;
+            margin: 0 2rem 0 0;
         }
         &:last-child {
             margin-bottom: 2rem;
