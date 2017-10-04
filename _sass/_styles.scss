@@ -229,8 +229,13 @@ a {
     opacity: 0.5;
 
 }
-.blog h1 {
-    margin-bottom: 0;
+// .blog h1 {
+//     margin-bottom: 0;
+// }
+.blog .vertical-image {
+    max-width: 50%;
+    float: right;
+    margin: 0 0 2rem 2rem;
 }
 .archives li {
     list-style: none;
