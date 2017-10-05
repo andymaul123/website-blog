@@ -11,6 +11,10 @@ body {
     margin-top: 3rem;
     max-width: 1140px;
 }
+blockquote {
+    border-left: 2px solid $accentGray;
+    padding-left: 2rem;
+}
 
 /* Typography
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -229,13 +233,16 @@ a {
     opacity: 0.5;
 
 }
-// .blog h1 {
-//     margin-bottom: 0;
-// }
+.blog h4 {
+    margin-bottom: 0;
+}
 .blog .vertical-image {
     max-width: 50%;
     float: right;
     margin: 0 0 2rem 2rem;
+}
+.blog .horizontal-image {
+    max-width: 100%;
 }
 .archives li {
     list-style: none;

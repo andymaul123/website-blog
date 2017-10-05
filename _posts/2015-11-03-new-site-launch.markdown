@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Website Re-launch"
-date:   2015-11-03
+title: "Website Re-launch"
+date: 2015-11-03
 tags:
 - Development
 - Jekyll
@@ -16,7 +16,7 @@ Touted as an authoring platform for tinkerers, my interest was immediately pique
 
 It only took a few minutes before Jekyll had me hook, line, and sinker. This is exactly what I was looking for! Instead of marrying a third-party blogging platform to my website or converting the website to a new platform, I can instead just write my blog-posts in easy-to-use markdown and let Jekyll rebuild my site for deployment. Everything is simple, static, and completely controlled by me.
 
-Even better, since it uses Liquid I can write variables and small functions inside my .html files to make my code DRY (an acronym for Don't Repeat Yourself, for the laymen). This is a drawback to maintaining a standard static site, where changes have to be made in fifty-million different locations. Instead, I can create an _include file (header, footer, navigation, etc) and use a command to pull it into my layouts. When I need to update, I just edit the _include file and changes are propagated.
+Even better, since it uses Liquid I can write variables and small functions inside my .html files to make my code DRY. This is a drawback to maintaining a standard static site, where changes have to be made in fifty-million different locations. Instead, I can create an _include file (header, footer, navigation, etc) and use a command to pull it into my layouts. When I need to update, I just edit the _include file and changes are propagated.
 
 There was a learning curve associated with using Jekyll, and it's not for everyone, but it was a perfect fit for re-launching my site. I also wanted to mention the light-weight framework I'm using, called [Skeleton]. Simple, clean, and it allowed me to focus on Jekyll instead of the framework I was leveraging.
 
