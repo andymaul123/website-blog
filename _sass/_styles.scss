@@ -161,6 +161,22 @@ a {
     .footer-link {
         font-size: 1.3rem;
     }
+    @media(max-width:919px) {
+        .columns {
+            display: block;
+            width: 100%;
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+        .email {
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .social a {
+            margin-right: 2.5rem;
+        }
+    }
 }
 .footer-content {
     font-size: 1.3rem;
@@ -265,6 +281,11 @@ a {
     margin-left: 3rem;
     margin-top: -6rem;
     margin-bottom: 1rem;
+    @media(max-width:919px) {
+        width: 175px;
+        margin-left: 2rem;
+        margin-top: -3rem;
+    }
 }
 .resume {
     position: relative;
@@ -299,15 +320,24 @@ a {
     }
     .logo {
         max-width: 100px;
+        @media(max-width: 919px) {
+            max-width: 100%;
+        }
     }
     .sub-head {
         margin-bottom: 6rem;
         font-family: $monospace;
         color: $pastelYellow;
         font-size: 2rem;
+        @media(max-width: 919px) {
+            margin-bottom: 3rem;
+        }
     }
     h1 {
         margin-bottom: 0;
+        @media(max-width: 919px) {
+            font-size: 4rem;
+        }
     }
     h2 {
         font-size: 2rem;
