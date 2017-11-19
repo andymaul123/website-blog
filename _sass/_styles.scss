@@ -309,6 +309,9 @@ a {
     width: 100%;
     padding: 2rem;
     margin-bottom: 2rem;
+    @media (max-width:549px){
+        width: auto;
+    }
     &:before {
         content: "";
         position: absolute;
@@ -335,9 +338,9 @@ a {
         width: 0;
     }
     .logo {
-        max-width: 100px;
-        @media(max-width: 919px) {
-            max-width: 100%;
+        max-width: 100%;
+        @media (max-width:549px){
+            display: none;
         }
     }
     .sub-head {
@@ -348,11 +351,18 @@ a {
         @media(max-width: 919px) {
             margin-bottom: 3rem;
         }
+        @media (max-width:549px){
+            margin-bottom: 2rem;
+            font-size: 1.6rem;
+        }
     }
     h1 {
         margin-bottom: 0;
         @media(max-width: 919px) {
             font-size: 4rem;
+        }
+        @media (max-width:549px){
+            font-size: 3rem;
         }
     }
     h2 {
@@ -367,6 +377,9 @@ a {
         li {
             display: inline-block;
             margin: 0 2rem 0 0;
+            @media (max-width:549px){
+                display: block;
+            }
         }
         &:last-child {
             margin-bottom: 2rem;
@@ -375,6 +388,9 @@ a {
     .info-block {
         padding-left: 2rem;
         margin-bottom: 2.5rem;
+        @media (max-width:549px){
+            padding-left: 1rem;
+        }
         h3, h3 a {
             font-size: 1.8rem;
             font-family: $monospace;
@@ -394,6 +410,10 @@ a {
             margin: 0 0 1rem 0;
             em {
                 margin-right: 2rem;
+                @media (max-width:549px){
+                    margin-right: auto;
+                    display: block;
+                }
             }
         }
     }
