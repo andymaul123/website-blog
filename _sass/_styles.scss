@@ -338,7 +338,8 @@ a {
         width: 0;
     }
     .logo {
-        max-width: 100%;
+        width: 100%;
+        max-width: 150px;
         @media (max-width:549px){
             display: none;
         }
@@ -415,6 +416,18 @@ a {
                     display: block;
                 }
             }
+        }
+    }
+    .resume-icons {
+        float: right;
+        &:after {
+            clear: both;
+        }
+        .icon {
+            font-size: 1.6rem;
+        }
+        a {
+            margin-right: 0.5rem;
         }
     }
 }
