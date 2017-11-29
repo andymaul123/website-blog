@@ -26,7 +26,7 @@ In secret, the two of us began to work on the first version of the site. The ide
 
 The first iteration was cobbled together, but the league was a smashing success. Enough that we did round two in spring 2017, and pushed for a better system. Enter [EDH Draft League v2](https://www.edh-league.com/).
 
-Version 2 had a more stable foundation since we opted to use [Firebase](https://firebase.google.com/) as the platform. Developing on Firebase was a breeze, and we had little issues getting Google authentication and mobile push notifications going. The front-end was dressed up too, opting for a lightweight CSS framework [Skeleton](getskeleton.com), the same one I use on this site.
+Version 2 had a more stable foundation since we opted to use [Firebase](https://firebase.google.com/) as the platform. Developing on Firebase was a breeze, and we had little issues getting Google authentication and mobile push notifications going. The front-end was dressed up too, opting for a lightweight CSS framework, [Skeleton](getskeleton.com), the same one I use on this site.
 
 Additionally, a major part of the second league season was us developing a custom ELO ranking algorithm. ELO is a ranking system used in chess, but we needed something similar that could function with different critera; namely, multiplayer with three different sub-rankings. After a lot of trial and error we implemented our custom system into the site and used it as an improvement over the static Wins/Losses/Votes system that our first iteration had. You can see the rankings on the "Standings" page.
 
