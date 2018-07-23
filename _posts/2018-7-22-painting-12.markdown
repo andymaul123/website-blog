@@ -1,0 +1,33 @@
+---
+layout: post
+title:  "Digital Painting #12"
+overlayTitle: Painting 12
+date:   2018-07-22
+featured: true
+imageName: painting12.jpg
+animation: center
+
+icons:
+- art
+
+tags:
+- Digital Painting
+- Photoshop CS6
+---
+
+<span class="dropcap">E</span> ach time I sit down to start a new painting I have this vain hope that _this_ one will be easier. I'm sure there's a lesson buried in that statement somewhere, but I'm steadfastly refusing to accept it just yet. Clocking in at just over twenty-nine sessions (give or take a few) across six months, I present to the world my twelfth painting, which I'm calling "Stonewood Lilies". 
+
+<div class="fullscreen">
+    <img src="{{ site.baseurl }}/image/assets/{{ page.imageName }}" class="outline shadows photo">
+    <span class="icon-enlarge icon"></span>
+</div>
+
+After finishing up the last one I had made a note to use reference images instead of free-wheeling it. I made an earnest attempt. Between _Storm's Coming_ and _Stonewood Lilies_ there was an abandoned effort at copying a snowy woodland scene with a cute fox. I picked it without really considering several factors, and promptly spiraled as I failed to illustrate even a semblance of the original. There was a period of doubt, but I regrouped and chose a different image, a photo from [Bulgaria's Pobiti Kamani stone forest](http://charismaticplanet.com/pobiti-kamani-stone-forest/). 
+
+Something about the stone forest photos captured my imagination. Even now, after hundreds of glances at them, I feel a sense of awe and wonder, and even a bit of weird nostalgia. For some reason they remind me of [Zelda II](https://en.wikipedia.org/wiki/Zelda_II:_The_Adventure_of_Link) on the NES, a game that enthralled me when I was younger. I resolved a compromise. Instead of trying to replicate the piece exactly, I used it as a loose guide when I blocked in shapes and colors. It set the _mood_, and from there I let myself wander through the process like usual. 
+
+As always, there were some wins and some losses along the way. Growth is hard to measure when you're in the thick of it, but I did adopt a few new brushes into my workflow that I really liked. I challenged myself to keep things a little more loose, which I didn't quite meet but worked toward. There were several periods in which I worked, and over-worked, areas to death and felt like scrapping the whole thing. I tried painting in a little person and failed miserably, so he/she/it got the axe in the final phases. One success was that, for the most part, I managed to remember to capture in-progress shots along the way! I compiled them into an animated gif, which is kinda neat.
+
+<img src="{{ site.baseurl }}/image/assets/painting12-animation.gif" class="outline shadows photo">
+
+
