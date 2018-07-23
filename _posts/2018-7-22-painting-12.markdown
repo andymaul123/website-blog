@@ -16,7 +16,7 @@ tags:
 ---
 
 
-<span class="dropcap">T</span> he tale of the tape is in! Clocking in at just over twenty-nine sessions (give or take a few), a six-month stretch, and innumerable meltdowns and crises, the fight is finally over. I stand battered, but victorious, over my opponent: painting twelve "Stonewood Lilies". Without further allusions to boxing, here is the final piece:
+<span class="dropcap">T</span> he tale of the tape is in! Clocking in at just over twenty-nine sessions (give or take a few), a six-month stretch, and innumerable meltdowns and crises, the fight is finally over. I stand battered, but victorious, over my opponent: painting twelve, "Stonewood Lilies". Without further allusions to boxing, here is the final piece:
 
 <div class="fullscreen">
     <img src="{{ site.baseurl }}/image/assets/{{ page.imageName }}" class="outline shadows photo">
@@ -29,6 +29,6 @@ Something about the stone forest photos captured my imagination. Even now, after
 
 As always, there were some wins and some losses along the way. Growth is hard to measure when you're in the thick of it, but I did adopt a few new brushes into my workflow that I really liked. I challenged myself to keep things a little more loose, which I didn't quite meet but worked toward. There were several periods in which I worked, and over-worked, areas to death and felt like scrapping the whole thing. I tried painting in a little person and failed miserably, so he/she/it got the axe in the final phases. One success was that, for the most part, I managed to remember to capture in-progress shots along the way! I compiled them into an animated gif, which is kinda neat.
 
-
+<img src="{{ site.baseurl }}/image/assets/painting12-animation.gif" class="outline shadows photo">
 
 
