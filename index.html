@@ -20,9 +20,7 @@ title: Andrew Maul. Developer, Writer, Artist.
       {% include home-nav.html %}
 
       <!-- Masonry Section of Interests -->
-      <div class="grid">
-        <div class="grid-sizer"></div>
-        <div class="gutter-sizer"></div>
+      <div class="grid" data-columns>
         {% for post in site.posts %}
           {% if post.featured == true %}
             <div class="grid-item">

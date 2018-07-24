@@ -9,7 +9,10 @@ body {
 }
 .container {
     margin-top: 3rem;
-    max-width: 1140px;
+    max-width: 1200px;
+    @media(min-width: 1920px) {
+        max-width: 1500px;
+    }
 }
 blockquote {
     border-left: 2px solid $accentGray;
@@ -96,14 +99,30 @@ a {
         display: none;
     }
 }
+// Using Salvattore library for grids
 .grid {
     margin-bottom: 3rem;
+    .salvattore { float: left; }
+    .size-1of3 { width: 33.333%; }
+    .size-1of2 { width: 50%; }
+    .size-1of1 { width: 100%; }
+    &[data-columns]::before {
+        @media(max-width: 959px) {
+            content: '1 .salvattore.size-1of1';
+        }
+        @media(min-width: 960px) and (max-width: 1919px) {
+            content: '2 .salvattore.size-1of2';
+        }
+        @media(min-width: 1920px) {
+            content: '3 .salvattore.size-1of3';
+        }
+    }
 }
-.grid-sizer {
-    width: 50%;
-}
+
+
 .grid-item {
-    width: 50%;
+    width: 100%;
+    position: relative;
 
     a {
         display: block;
