@@ -1,10 +1,11 @@
 ---
 layout: post
 title: "Adventure.js"
+class: post
 overlayTitle: Adventure.js
 date: 2016-02-05
 featured: true
-imageName: adventure.jpg
+imageName: adventure
 animation: left
 
 icons:
@@ -20,7 +21,7 @@ tags:
 
 Now if you know me, you know that I have this strange affinity toward text-adventure games that cannot be explained. I never played them growing up, but this would be the third text-adventure-related project I've worked on. The first was a [recreation of Zork into The Elder Scrolls: Oblivion as a mod](http://www.nexusmods.com/oblivion/mods/30951/?) and the second was a functional foray into [Inform7, the text-adventure language](http://inform7.com/). Presenting, Adventure.js:
 
-<iframe src="http://andrewmaul.com/fun/adventure/adventure.html" style="width: 100%; height: 500px;"></iframe>
+<iframe src="http://andrewmaul.com/fun/adventure/adventure.html" style="width: 100%; height: 600px;"></iframe>
 
 
 I decided to use Adventure.js as a learning tool, as I'm still a javaScript novice and haven't had much practical time with object-oriented programming in general. It's definitely a work-in-progress, but so far I have room and item objects, an inventory, and working look and take functions. The language parsing is the hardest part, honestly, and so I've decided to skip that for now. The game only reads the first one or two words put into the input - anything more and it will get confused.
