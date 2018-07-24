@@ -1,10 +1,11 @@
 ---
 layout: post
 title: "Digital Painting #7"
+class: post
 overlayTitle: Painting 7
 date: 2016-03-21
 featured: true
-imageName: painting7.jpg
+imageName: painting7
 animation: center
 
 icons:
@@ -18,7 +19,7 @@ tags:
 <span class="dropcap">P</span>ainting number seven was wrapped up this past weekend, and it went by way faster than number six. After watching far too many episodes of the Joy of Painting, I was all amped to paint something and decided on "Wooded Foothills" as my subject. Ross's method for creating foothills was pretty easily adapted to digital media; the same goes for the pine trees. Previously I had hoped to work on something with architecture, but I realized I'm not ready for an indoor scene just yet. Verdant Catacombs will have to wait a bit longer. 
 
 <div class="fullscreen">
-    <img src="{{ site.baseurl }}/image/assets/{{ page.imageName }}" class="outline shadows photo">
+    <img src="{{ site.baseurl }}/image/assets/{{ page.imageName }}.jpg" class="outline shadows photo">
     <span class="icon-enlarge icon"></span>
 </div>
 

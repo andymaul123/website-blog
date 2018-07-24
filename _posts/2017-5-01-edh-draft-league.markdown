@@ -1,10 +1,11 @@
 ---
 layout: post
 title:  "EDH Draft League Web Site"
+class: post
 overlayTitle: EDH Draft Site
 date: 2017-05-01
 featured: true
-imageName: draftleague.jpg
+imageName: draftleague
 animation: left
 
 icons:
@@ -18,9 +19,9 @@ tags:
 
 <span class="dropcap">I</span> play a lot of Magic the Gathering. I collect the cards, play the game, covet pieces of artwork, and have tattoos of it. Needless to say, I'm unhealthily obsessed with the game, and it's been a part of my life for almost two decades now. I'm fortunate to have a group of friends who I play with regularly. One day, two summers ago, my friend and I decided to run a crazy idea: a special kind of format where a group of eight of us would draft cards from the entire available pool. We were inspired by [Sheldon's Rotisserie Draft League](http://www.starcitygames.com/article/35090_Friends-Setting-Up-The-Commander-Rotisserie-Draft.html), but knew that getting people together to do the whole thing in person wasn't going to happen.
 
-Thus, the EDH Draft League web site was conceived.
-
 ![Draft League]({{ site.baseurl }}/image/assets/draftleague.jpg){: .vertical-image}
+
+Thus, the EDH Draft League web site was conceived.
 
 In secret, the two of us began to work on the first version of the site. The idea was simple: a website that would facilitate us drafting cards, like a fantasy-football site, asynchronously. The first iteration was pretty rough: a bootstrapped front-end using [JSON Blob](https://jsonblob.com/) as a flat-file "back-end". We integrated with [MTG JSON](https://mtgjson.com/) as our data.
 

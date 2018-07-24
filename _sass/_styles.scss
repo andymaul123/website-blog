@@ -9,7 +9,13 @@ body {
 }
 .container {
     margin-top: 3rem;
-    max-width: 1140px;
+    max-width: 1200px;
+    @media(min-width: 1920px) {
+        max-width: 1500px;
+    }
+    body.about & {
+        max-width: 1140px;
+    }
 }
 blockquote {
     border-left: 2px solid $accentGray;
@@ -35,7 +41,7 @@ p {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
   font-family: $body;
-  color: $pastelYellow;
+  color: $yellow;
   text-decoration: none;
 
   &:hover {
@@ -51,6 +57,7 @@ a {
     img {
         width: 25%;
         margin: 3rem;
+        max-width: 25rem;
         @media(max-width:767px) {
             margin: 1rem;
         }
@@ -96,19 +103,18 @@ a {
         display: none;
     }
 }
+// Using Salvattore library for grids
 .grid {
     margin-bottom: 3rem;
 }
-.grid-sizer {
-    width: 50%;
-}
+
+
 .grid-item {
-    width: 50%;
+    width: 100%;
+    position: relative;
 
     a {
         display: block;
-        padding-right: 10px;
-        padding-bottom: 10px;
     }
     img {
         width: 100%;
@@ -127,8 +133,8 @@ a {
             display: block;
             visibility: visible;
             opacity: 1;
-            height: calc(100% - 11px);
-            width: calc(100% - 10px);
+            height: calc(100% - 1px);
+            width: 100%;
             transition: visibility 0s, opacity 0.5s linear;
         }
         .animation-center, .animation-left {
@@ -162,7 +168,7 @@ a {
             position: absolute;
             font-size: 2rem;
             font-family: $title;
-            color: $pastelYellow;
+            color: $yellow;
             pointer-events: auto;
             padding: 0;
         }
@@ -238,7 +244,7 @@ a {
     color: $commentGray;
     & a {
         opacity: 0.5;
-        color: $pastelYellow;
+        color: $yellow;
         cursor: pointer;
         &:hover {
             opacity: 1;
@@ -304,6 +310,11 @@ a {
     font-size: 1.7rem;
     letter-spacing: 0.1rem;
 }
+.image-note {
+    text-align: left;
+    font-style: italic;
+    display: inline-block;
+}
 
 /* About Page
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -314,11 +325,6 @@ a {
     margin-left: 3rem;
     margin-top: -6rem;
     margin-bottom: 1rem;
-    @media(max-width:919px) {
-        width: 17.5rem;
-        margin-left: 2rem;
-        margin-top: -3rem;
-    }
 }
 .resume {
     position: relative;
@@ -372,7 +378,7 @@ a {
     .sub-head {
         margin-bottom: 6rem;
         font-family: $monospace;
-        color: $pastelYellow;
+        color: $yellow;
         font-size: 2rem;
         @media(max-width: 919px) {
             margin-bottom: 3rem;
@@ -384,6 +390,7 @@ a {
     }
     h1 {
         margin-bottom: 0;
+        text-align: left;
         @media(max-width: 919px) {
             font-size: 4rem;
         }
@@ -420,7 +427,7 @@ a {
         h3, h3 a {
             font-size: 1.8rem;
             font-family: $monospace;
-            color: $pastelYellow;
+            color: $yellow;
             margin: 0 0 0.5rem 0;
         }
         h3 a {
@@ -454,6 +461,22 @@ a {
         a {
             margin-right: 0.5rem;
         }
+    }
+}
+
+@media(max-width: 767px){
+    h1 {
+        text-align: center;
+    }
+    .portrait {
+        width: 17.5rem;
+        display: block;
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 3rem;
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
     }
 }
 

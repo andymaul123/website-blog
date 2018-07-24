@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Andrew Maul. Developer, Writer, Artist.
+class: projects
 ---
 
   <div class="row">
@@ -20,15 +21,13 @@ title: Andrew Maul. Developer, Writer, Artist.
       {% include home-nav.html %}
 
       <!-- Masonry Section of Interests -->
-      <div class="grid">
-        <div class="grid-sizer"></div>
-        <div class="gutter-sizer"></div>
+      <div class="grid" data-columns>
         {% for post in site.posts %}
           {% if post.featured == true %}
             <div class="grid-item">
               <a href="{{ post.url }}">
                 <div class="animation-wrapper outline">
-                  <img src="{{ site.baseurl }}/image/assets/{{ post.imageName }}" alt="" class="animation-{{ post.animation }}">
+                  <img src="{{ site.baseurl }}/image/assets/thumbs/{{ post.imageName }}-thumb.jpg" alt="" class="animation-{{ post.animation }}">
                 </div>
               </a>
               <div class="hidden overlay">

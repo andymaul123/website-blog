@@ -1,10 +1,11 @@
 ---
 layout: post
 title:  "Digital Painting #11"
+class: post
 overlayTitle: Painting 11
 date:   2017-09-26
 featured: true
-imageName: painting11.jpg
+imageName: painting11
 animation: center
 
 icons:
@@ -24,7 +25,7 @@ She didn’t bother to wipe away the tears this time, letting them instead casca
 “Storm’s coming.”
 
 <div class="fullscreen">
-    <img src="{{ site.baseurl }}/image/assets/{{ page.imageName }}" class="outline shadows photo">
+    <img src="{{ site.baseurl }}/image/assets/{{ page.imageName }}.jpg" class="outline shadows photo">
     <span class="icon-enlarge icon"></span>
 </div>
 

@@ -1,10 +1,11 @@
 ---
 layout: post
 title:  "Digital Painting #12"
+class: post
 overlayTitle: Painting 12
 date:   2018-07-22
 featured: true
-imageName: painting12.jpg
+imageName: painting12
 animation: center
 
 icons:
@@ -18,7 +19,7 @@ tags:
 <span class="dropcap">E</span> ach time I sit down to start a new painting I have this vain hope that _this_ one will be easier. I'm sure there's a lesson buried in that statement somewhere, but I'm steadfastly refusing to accept it just yet. Clocking in at just over twenty-nine sessions (give or take a few) across six months, I present to the world my twelfth painting, which I'm calling "Stonewood Lilies". 
 
 <div class="fullscreen">
-    <img src="{{ site.baseurl }}/image/assets/{{ page.imageName }}" class="outline shadows photo">
+    <img src="{{ site.baseurl }}/image/assets/{{ page.imageName }}.jpg" class="outline shadows photo">
     <span class="icon-enlarge icon"></span>
 </div>
 

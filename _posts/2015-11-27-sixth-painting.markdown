@@ -1,10 +1,11 @@
 ---
 layout: post
 title: "Digital Painting #6"
+class: post
 overlayTitle: Painting 6
 date: 2015-11-27
 featured: true
-imageName: painting6.jpg
+imageName: painting6
 animation: center
 
 icons:
@@ -18,7 +19,7 @@ tags:
 <span class="dropcap">F</span>or my sixth painting I really wanted push myself, as well as have some fun! Instead of copying a landscape reference image, I opted to "re-envision" landscapes from Magic: the Gathering; "Bloodstained Mire" was the winner. This was my most difficult painting project to date; I must have scrapped it entirely and restarted a half-dozen times. Perspective issues, composition issues, changing light-sources - I did it all. If I only counted time spent on this final iteration I'd guess it clocked it at roughly 25 hours. There were a few things on my checklist that didn't make it in, such as adding birds in the foreground to show scale, but overall I'm happy with it (and to be done with it). Here's the finished piece:
 
 <div class="fullscreen">
-    <img src="{{ site.baseurl }}/image/assets/{{ page.imageName }}" class="outline shadows photo">
+    <img src="{{ site.baseurl }}/image/assets/{{ page.imageName }}.jpg" class="outline shadows photo">
     <span class="icon-enlarge icon"></span>
 </div>
 

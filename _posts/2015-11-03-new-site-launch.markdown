@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Website Re-launch"
+class: post
 date: 2015-11-03
 tags:
 - Development
