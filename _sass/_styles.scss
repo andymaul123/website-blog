@@ -223,7 +223,7 @@ a {
 .email-address {
     display: table-cell;
     vertical-align: middle;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: 300;
     letter-spacing: 0.02rem;
 }
@@ -281,7 +281,18 @@ a {
     bottom: 0.5rem;
     right: 0.5rem;
     opacity: 0.5;
-
+    &.dark {
+        opacity: 0.7;
+        background: $black;
+        width: 4.5rem;
+        height: 4.5rem;
+        border-radius: 50%;
+        &::before {
+            position: absolute;
+            left: 1.2rem;
+            top: 1.2rem;
+        }
+    }
 }
 .blog h4 {
     margin-bottom: 0;
@@ -314,6 +325,13 @@ a {
     text-align: left;
     font-style: italic;
     display: inline-block;
+}
+pre > code {
+    padding: 0;
+}
+code {
+    border-width: 0px;
+    padding: 0;
 }
 
 /* About Page

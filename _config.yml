@@ -18,5 +18,7 @@ github: "http://github.com/andymaul123"
 # Build settings
 markdown: kramdown
 
+highlighter: none
+
 
 
