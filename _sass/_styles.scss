@@ -536,7 +536,21 @@ code {
     height: auto;
     max-width: 100%;
     display: block;
+    &.isFullscreen {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        max-width: 100%;
+        max-height: 100%;
+        margin: auto;
+        overflow: auto;
+    }
 }
 .crimson {
     font-family: $body;
+}
+.clear {
+    clear: both;
 }

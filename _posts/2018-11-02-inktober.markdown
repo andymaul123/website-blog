@@ -1,0 +1,64 @@
+---
+layout: post
+title:  "Inktober 2018 Highlights"
+class: post post-grid
+overlayTitle: Inktober
+date: 2018-11-02
+featured: false
+imageName: inktober
+animation: center
+
+icons:
+- art
+
+tags:
+- Art
+- Inktober
+- Drawing
+---
+
+<span class="dropcap">O</span>ctober 2018 came and went in the blink of an eye. I had resolved to fully participate in Inktober this year after casually flirting with it in the past. A coworker and friend of mine, Adam, agreed to do it, too. I am grateful for that; doing something with friends is always more fun! Toward the end of September we began talking shop: buying supplies and trading experiences with our new tools. I decided to create a Slack channel at work and invite the greater company in to banter with us as a way of driving up hype for myself and others. A few people expressed interest in taking up pens and joining our crusade, but I assumed it was going to primarily be the two of us.
+
+<img src="{{ site.baseurl }}/image/assets/inktober2018/dragon.jpg" class="outline shadows photo">
+
+Day 1 rolled around, and straight out of the gates we had a half-dozen employees submitting their drawings! Others joined the channel to cheer us along or just appreciate (and laugh at) our artwork. I was thrilled at the sense of real community that was being built organically around this event, and how much fun people were having with it. This was, of course, day 1 of a grueling 31-day marathon.
+
+I kept a solid pace all the way up until the 20th or so. Moving apartments, unfortunately, killed an entire week for me. No iron-man 31 drawings this year. C'est la vie. Adam, however, succeeded with a strategy of spending one hour each day, usually during lunch. My times varied drastically, but the common thread was I am much slower at drawing than he is. I think I hit my stride at about 3-4 hours, the right amount of time to get something halfway-decent and still doable in a night. Anyway, Inktober was a success this year even if I didn't do all 31. Here is the rest of the highlight reel:
+
+<div class="grid" data-columns>
+	<div class="grid-item">
+		<div class="animation-wrapper outline">
+			<img src="{{ site.baseurl }}/image/assets/inktober2018/castle.jpg" alt="" class="">
+		</div>
+	</div>
+	<div class="grid-item">
+		<div class="animation-wrapper outline">
+			<img src="{{ site.baseurl }}/image/assets/inktober2018/fungi.jpg" alt="" class="">
+		</div>
+	</div>
+	<div class="grid-item">
+		<div class="animation-wrapper outline">
+			<img src="{{ site.baseurl }}/image/assets/inktober2018/caverns.jpg" alt="" class="">
+		</div>
+	</div>
+	<div class="grid-item">
+		<div class="animation-wrapper outline">
+			<img src="{{ site.baseurl }}/image/assets/inktober2018/spell.jpg" alt="" class="">
+		</div>
+	</div>
+	<div class="grid-item">
+		<div class="animation-wrapper outline">
+			<img src="{{ site.baseurl }}/image/assets/inktober2018/knight.jpg" alt="" class="">
+		</div>
+	</div>
+	<div class="grid-item">
+		<div class="animation-wrapper outline">
+			<img src="{{ site.baseurl }}/image/assets/inktober2018/staranise.jpg" alt="" class="">
+		</div>
+	</div>
+	<div class="grid-item">
+		<div class="animation-wrapper outline">
+			<img src="{{ site.baseurl }}/image/assets/inktober2018/cockatrice.jpg" alt="" class="">
+		</div>
+	</div>
+</div>

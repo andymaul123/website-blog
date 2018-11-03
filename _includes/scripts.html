@@ -9,7 +9,7 @@
 
 <!-- Macy init -->
 <script type="text/javascript">
-    if($('body').hasClass('projects')) {
+    if( $('body').hasClass('projects') || $('body').hasClass('post-grid')) {
         Macy({
             container: '.grid',
             trueOrder: false,
@@ -30,10 +30,12 @@ $(document).ready(function(){
     $('.fullscreen').on('click', function(){
         var elem = document.getElementsByClassName('fullscreen')[0];
         if(document.webkitFullscreenElement) {
-          document.webkitCancelFullScreen();
+            $(elem).children('.photo').removeClass('isFullscreen');
+            document.webkitCancelFullScreen();
         }
         else {
-          elem.webkitRequestFullScreen();
+            $(elem).children('.photo').addClass('isFullscreen');
+            elem.webkitRequestFullScreen();
         };
       });
 });
