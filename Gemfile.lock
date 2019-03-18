@@ -13,8 +13,10 @@ GEM
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
     eventmachine (1.2.7)
+    eventmachine (1.2.7-x64-mingw32)
     execjs (2.7.0)
     ffi (1.10.0)
+    ffi (1.10.0-x64-mingw32)
     forwardable-extended (2.6.0)
     html_press (0.8.2)
       htmlentities
@@ -78,9 +80,11 @@ GEM
 
 PLATFORMS
   ruby
+  x64-mingw32
 
 DEPENDENCIES
   jekyll (~> 3.8)
   jekyll-press (~> 0.2.1)
 
-
+BUNDLED WITH
+   1.16.0
