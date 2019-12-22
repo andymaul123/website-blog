@@ -26,18 +26,50 @@
 
 <!-- Fullscreen API Script Load -->
 <script type="text/javascript">
-$(document).ready(function(){
-    $('.fullscreen').on('click', function(){
-        var elem = document.getElementsByClassName('fullscreen')[0];
-        if(document.webkitFullscreenElement) {
-            $(elem).children('.photo').removeClass('isFullscreen');
-            document.webkitCancelFullScreen();
+$(document).ready(function() {
+    var elem = document.getElementsByClassName('fullscreen')[0];
+
+    $('.fullscreen').on('click', function() {
+
+
+        if(elem && document.fullscreenElement) {
+             if(document.webkitCancelFullScreen) {
+                document.webkitCancelFullScreen();
+             }
+             if(document.mozCancelFullScreen) {
+                document.mozCancelFullScreen();
+             }
+             if(document.msCancelFullScreen) {
+                document.msCancelFullScreen();
+             }
         }
-        else {
-            $(elem).children('.photo').addClass('isFullscreen');
-            elem.webkitRequestFullScreen();
-        };
-      });
+
+        if(elem && !document.fullscreenElement) {
+             if(document.webkitCancelFullScreen) {
+                elem.webkitRequestFullScreen();
+             }
+             if(document.mozCancelFullScreen) {
+                elem.mozRequestFullScreen();
+             }
+             if(document.msCancelFullScreen) {
+                elem.msRequestFullScreen();
+             } 
+        }
+    });
+
+    $(document).on('webkitfullscreenchange mozfullscreenchange fullscreenchange MSFullscreenChange', function() {
+        console.log("fullscreen fired");
+        if(elem && document.fullscreenElement) {
+             $(elem).children('.photo').addClass('isFullscreen');
+        }
+
+        if(elem && !document.fullscreenElement) {
+             $(elem).children('.photo').removeClass('isFullscreen');
+        }
+
+    });
+
+
 });
 </script>
 <!-- Homepage Animation -->

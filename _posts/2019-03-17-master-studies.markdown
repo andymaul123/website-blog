@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Studying the Masters"
-class: post post-grid
+class: post
 overlayTitle: Masters
 date: 2019-03-17
 featured: false
