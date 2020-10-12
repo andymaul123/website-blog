@@ -1,20 +1,18 @@
 ---
 layout: post
 title:  "Inktober 2019 Highlights"
-class: post post-grid
-overlayTitle: Inktober
+class: post
+overlayTitle: Inktober 2019
 date: 2019-11-01
-featured: false
-imageName: inktober
+featured: true
+imageName: inks
 animation: center
 
 icons:
 - art
 
 tags:
-- Art
-- Inktober
-- Drawing
+- inks
 ---
 
 <span class="dropcap">A</span>nother October came and went, and with it, Inktober. Like last year I particpated with my coworkers (which is really the highlight of the event). I went much more casual this year finishing less than half of the prompts. The relaxed approach was really nice, and allowed me to spend more time on each piece. I went with a tarot-style set of illustrations and focused on trying to learn the tools better. For each piece the process was the same: draw gridlines and do the initial sketch in pencil, first pass with Micron pens, color fill with Tombow markers, additional passes with Micron pens, and then finally any small gold or white highlights.

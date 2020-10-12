@@ -1,20 +1,18 @@
 ---
 layout: post
 title:  "Inktober 2018 Highlights"
-class: post post-grid
-overlayTitle: Inktober
+class: post
+overlayTitle: Inktober 2018
 date: 2018-11-02
 featured: false
-imageName: inktober
+imageName: inks_2018
 animation: center
 
 icons:
 - art
 
 tags:
-- Art
-- Inktober
-- Drawing
+- inks
 ---
 
 <span class="dropcap">O</span>ctober 2018 came and went in the blink of an eye. I had resolved to fully participate in Inktober this year after casually flirting with it in the past. A coworker and friend of mine, Adam, agreed to do it, too. I am grateful for that; doing something with friends is always more fun! Toward the end of September we began talking shop: buying supplies and trading experiences with our new tools. I decided to create a Slack channel at work and invite the greater company in to banter with us as a way of driving up hype for myself and others. A few people expressed interest in taking up pens and joining our crusade, but I assumed it was going to primarily be the two of us.

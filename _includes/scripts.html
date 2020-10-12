@@ -1,28 +1,8 @@
 <!-- jQuery Script Load -->
 <script type="text/javascript" src="{{ site.baseurl }}/js/jquery-3.2.1.min.js"></script>
 
-<!-- Macy.js for image tiling -->
-<script type="text/javascript" src="{{ site.baseurl }}/js/macy.min.js"></script>
-
 <!-- Prism.js syntax highlighting -->
 <script type="text/javascript" src="{{ site.baseurl }}/js/prism.js"></script>
-
-<!-- Macy init -->
-<script type="text/javascript">
-    if( $('body').hasClass('projects') || $('body').hasClass('post-grid')) {
-        Macy({
-            container: '.grid',
-            trueOrder: false,
-            waitForImages: false,
-            margin: 10,
-            columns: 3,
-            breakAt: {
-                1919: 2,
-                767: 1
-            }
-        });
-    }
-</script>
 
 <!-- Fullscreen API Script Load -->
 <script type="text/javascript">

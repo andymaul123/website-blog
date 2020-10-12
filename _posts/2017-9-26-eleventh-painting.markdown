@@ -4,17 +4,10 @@ title:  "Digital Painting #11"
 class: post
 overlayTitle: Painting 11
 date:   2017-09-26
-featured: true
 imageName: painting11
-animation: center
-
-icons:
-- art
-- write
 
 tags:
-- Digital Painting
-- Photoshop CS6
+- landscapes
 ---
 
 

@@ -2,25 +2,20 @@
 layout: post
 title:  "Studying the Masters"
 class: post
-overlayTitle: Masters
+overlayTitle: Masters Study
 date: 2019-03-17
 featured: false
-imageName: masterstudy
+imageName: landscapes
 animation: center
 
-icons:
-- art
-
 tags:
-- Art
-- Digital Painting
-- Photoshop CS6
+- landscapes
 ---
 
 <span class="dropcap">L</span>ast holiday season my family surprised me with the opportunity to enroll into [Noah Bradley's Artcamp for Landscapes](https://artcamp.com/), an asynchronous 12-week bootcamp for landscape artists. It has been an incredible and humbling experience, and I'm only a 1/4 of the way through. While very important, nobody wants to see the thumbnails practice and value studies I've been doing. That's why the lesson on masters studies was exciting. Well, one of the reasons.
 
 <div class="fullscreen">
-    <img src="{{ site.baseurl }}/image/assets/{{ page.imageName }}.jpg" class="outline shadows photo">
+    <img src="{{ site.baseurl }}/image/assets/masterstudy.jpg" class="outline shadows photo">
     <span class="icon-enlarge icon"></span>
 </div>
 

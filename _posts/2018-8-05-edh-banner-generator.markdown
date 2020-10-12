@@ -12,9 +12,7 @@ icons:
 - code
 
 tags:
-- Development
-- Javascript
-- Node.js
+- dev
 ---
 
 <span class="dropcap">C</span>ustomization is a large part of the culture surrounding EDH, a format of Magic the Gathering where players build a deck around a legendary creature. People spend thousands of dollars procuring special versions of cards for their deck, getting alterations painted on them, and getting them signed by the card's artist. There's a popular website for housing player's decklists called [Tapped Out](www.tappedout.net). People here go hog-wild customizing their profile pages and deck lists, usually resulting in an experience reminiscient of *Myspace* circa 2005. One user, however, posted some cool images of scattered cards that he took with his camera and used them as banners on his deck page. I thought it was neat, well executed, and then forgot about it for several years.

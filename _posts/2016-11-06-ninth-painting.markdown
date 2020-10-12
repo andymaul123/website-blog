@@ -4,15 +4,10 @@ title:  "Digital Painting #9"
 class: post
 overlayTitle: Painting 9
 date: 2016-11-06
-featured: true
 imageName: painting9
-animation: center
-
-icons:
-- art
 
 tags:
-- Digital Painting
+- landscapes
 ---
 
 <span class="dropcap">A</span>fter the muted and dreary color palette of my last painting, I wanted to change it up and do something a little more colorful. I've been in love with works by Ivan Aivazovsky, a russian romantic painter who became famous for his prolific seascape paintings. Naturally, I painted a seascape for number nine!

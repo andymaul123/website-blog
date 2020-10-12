@@ -3,8 +3,10 @@ layout: post
 title: "Journey into Digital Painting"
 class: post
 date: 2015-11-06
+overlayTitle: Painting Journey
+imageName: painting5
 tags:
-- Digital Painting
+- landscapes
 ---
 
 Just about a year ago (September 2014) I decided that I was going to sit down and finally learn to paint. I had all the equipment I'd need with Photoshop CS6 and a Cintiq 12wx - I just needed to learn how. So I started with the master himself, Bob Ross. I watched countless videos, and started figuring out how to translate his methods from analog to digital. I also studied contemporary concept artists via tutorials on YouTube for technical application and workflows. To date I've done six paintings (well under my goal of 12, but it's something at least). With each one I try and push the threshold of my abilities. 

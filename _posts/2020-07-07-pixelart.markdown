@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "Pixel Art"
+class: post
+overlayTitle: Pixel Art
+date: 2020-07-07
+imageName: pixels
+
+tags:
+- pixels
+---
+
+<span class="dropcap">P</span>ixel art has always captured my imagination. It's a perfect blend of art, nostalgia, and subject matter to endlessly fascinate me. I'm not sure why it took me so long to give pixel art an earnest attempt. I had flirted with it back in 2009 or so, but it wasn't until last month (June 2020) that I really sat down and decided to learn the subject. I am, obviously, only scratching the surface on this topic. Paradoxically it feels both easy and difficult to "grok", but I very much enjoy that I can sit down for an hour and produce a finished "piece". 
+
+<img src="{{ site.baseurl }}/image/assets/pixelart/pixelart_1.jpg" class="shadows photo">
+
+
+The above seven pieces are what I've done so far in this medium. The two last rings are pixel-ized renditions of art from Dark Souls. I've taken a break recently and would like to jump back in. Expect a future post with even more!

@@ -3,10 +3,6 @@ layout: post
 title: "Website Re-launch"
 class: post
 date: 2015-11-03
-tags:
-- Development
-- Jekyll
-- Blogging
 ---
 
 After a long hiatus from regularly publishing content on my site, I finally felt it was time to leap back in the world of blogging. My previous setup relied on Blogger as the CMS for blogging, and I wanted to move away from it. I looked at some alternatives, but most felt too cumbersome for the type of content I wanted to author (I'm looking at *you*, Wordpress). Too much overhead to deal with. Then I stumbled on a strange and wonderful thing called [Jekyll].

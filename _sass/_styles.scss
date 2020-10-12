@@ -8,19 +8,19 @@ body {
     line-height: 1.5;
 }
 .container {
-    margin-top: 3rem;
+    section {
+        padding-top: 10rem;
+    }
     max-width: 1200px;
     @media(min-width: 1920px) {
         max-width: 1500px;
-    }
-    body.about & {
-        max-width: 1140px;
     }
 }
 blockquote {
     border-left: 2px solid $accentGray;
     padding-left: 2rem;
 }
+
 
 /* Typography
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -63,20 +63,35 @@ a {
         }
     }
 }
-.nav {
-    a {
-        font-size: 2rem;
-        text-decoration: none;
+
+.site-nav {
+    font-family: $monospace;
+    font-size: 2rem;
+    color: $commentGray;
+    // margin-bottom: 3rem;
+    padding: 2rem 0;
+    position: fixed;
+    z-index: 999;
+    background-color: $darkGray;
+    width: 100%;
+    & a {
         font-family: $monospace;
-    }
-    @media(max-width:767px) {
-        .left, .center, .right {
-            width: 100%;
-            text-align: center;
-            margin-bottom: 0.5rem;
+        font-size: 2rem;
+        opacity: 0.5;
+        color: $yellow;
+        cursor: pointer;
+        text-decoration: none;
+        &:hover {
+            opacity: 1;
+            transition: all 0.5s linear;
+            color: $blue;
+        }
+        &.active {
+            color: $blue;
         }
     }
 }
+
 .homepage-animation {
     margin-bottom: 5rem;
     .typing {
@@ -103,15 +118,32 @@ a {
         display: none;
     }
 }
-// Using Salvattore library for grids
 .grid {
     margin-bottom: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 
 .grid-item {
-    width: 100%;
+    width: 384px;
+    height: 384px;
+    @media(min-width: 1920px) {
+        width: 484px;
+        height: 484px;
+    }
     position: relative;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    .blog & {
+        width: 428px;
+        height: 428px;
+        @media(min-width: 1920px) {
+            width: 354px;
+            height: 354px;
+        }
+    }
 
     a {
         display: block;
@@ -124,33 +156,19 @@ a {
         overflow: hidden;
         width: 100%;
     }
-    .animation-center, .animation-left {
-        transform: scale(1);
-        transition: all 2.5s ease;
-    }
     &:hover {
         .overlay {
             display: block;
             visibility: visible;
             opacity: 1;
-            height: calc(100% - 1px);
+            height: 100%;
             width: 100%;
             transition: visibility 0s, opacity 0.5s linear;
-        }
-        .animation-center, .animation-left {
-            transform: scale(1.1);
-            transition: all 2.5s ease;
-        }
-        .animation-center {
-            transform-origin: center center;
-        }
-        .animation-left {
-            transform-origin: left center;
         }
     }
     .overlay {
         position: absolute;
-        top: 0;
+        top: 1px;
         left: 1px;
         height: calc(100% - 10px);
         width: calc(100% - 8px);
@@ -182,6 +200,7 @@ a {
         }
     }
 }
+
 .footer {
     border-top: 1px solid $accentGray;
     padding: 1rem 2rem;
@@ -238,27 +257,6 @@ a {
 
 /* Post-specific styles
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-.home-nav, .home-nav a, .post-nav, .post-nav a {
-    font-family: $monospace;
-    font-size: 2rem;
-    color: $commentGray;
-    & a {
-        opacity: 0.5;
-        color: $yellow;
-        cursor: pointer;
-        &:hover {
-            opacity: 1;
-            transition: all 0.5s linear;
-            color: $blue;
-        }
-        &.active {
-            color: $blue;
-        }
-    }
-}
-.home-nav, .post-nav {
-    margin-bottom: 3rem;
-}
 .fullscreen {
     position: relative;
     cursor: pointer;

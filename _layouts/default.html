@@ -5,6 +5,7 @@
 
 <body{% if page.class %} class="{{ page.class }}"{% endif %}>
   <div class="container">
+  	{% include site-nav.html %}
     <section>
       {{ content }}
     </section>

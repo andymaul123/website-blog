@@ -13,8 +13,7 @@ icons:
 
 
 tags:
-- Development
-- javaScript
+- dev
 ---
 
 <span class="dropcap">L</span>ately I've found myself with two types of tasks at work: building out forms and writing a lot of javaScript (sometimes both at once). Earlier this week, while I was knee-deep in getting some functionality to work, I ran across *something* that reminded me of the old text-adventure games or MUDs. I can't for the life of me remember what triggered the thought, but the end result was, "I bet I could build a text adventure in javaScript."

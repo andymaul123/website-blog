@@ -1,0 +1,20 @@
+<!-- Fetches each blog post that matches page tag/category -->
+  <div class="grid" data-columns>
+    {% for post in site.posts %}
+      {%  if post.tags contains page.category %}
+
+        <div class="grid-item">
+          <a href="{{ post.url }}">
+            <div class="animation-wrapper outline">
+              <img src="{{ site.baseurl }}/image/assets/thumbs/{{ post.imageName }}-thumb.jpg" alt="" class="animation-{{ post.animation }}">
+            </div>
+          </a>
+          <div class="hidden overlay">
+            <div class="overlay-info">
+              <a href="{{ post.url }}" class="no-underline shadows info-link">{{ post.overlayTitle }}</a>
+            </div>
+          </div>
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
